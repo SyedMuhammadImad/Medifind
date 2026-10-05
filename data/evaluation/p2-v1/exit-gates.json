@@ -1,0 +1,312 @@
+{
+  "verdict": "PARTIAL",
+  "p3": "NOT_READY",
+  "gates": [
+    {
+      "gate": 1,
+      "requirement": "Actual local P0/P1 lineage documented",
+      "result": "PASS",
+      "evidence": "b1bd966 -> 1c4cc00; historical cloud hashes explicitly excluded"
+    },
+    {
+      "gate": 2,
+      "requirement": "P0 regression passes",
+      "result": "PASS",
+      "evidence": "Full 184-case regression includes original foundation/source tests"
+    },
+    {
+      "gate": 3,
+      "requirement": "P1 regression passes",
+      "result": "PASS",
+      "evidence": "Original 114 cases plus actual process/DB restart smoke pass"
+    },
+    {
+      "gate": 4,
+      "requirement": "Defensible catalog expansion attempted",
+      "result": "PASS",
+      "evidence": "5 -> 66; official Pakistan directory and linked publisher PDFs; DRAP 403"
+    },
+    {
+      "gate": 5,
+      "requirement": "Catalog quality audit completed",
+      "result": "PASS",
+      "evidence": "catalog.p2.audit.json; missing strength/form/provenance 0; 37 strength bases"
+    },
+    {
+      "gate": 6,
+      "requirement": "Provenance preserved",
+      "result": "PASS",
+      "evidence": "45 retained artifact hashes; original five records unchanged"
+    },
+    {
+      "gate": 7,
+      "requirement": "Exact brand matching",
+      "result": "PASS",
+      "evidence": "PostgreSQL/API fixtures and held-out exact/case categories"
+    },
+    {
+      "gate": 8,
+      "requirement": "Exact generic matching",
+      "result": "PASS",
+      "evidence": "Ingredient-to-many and combination behavior; held-out ambiguous_generic 8/8"
+    },
+    {
+      "gate": 9,
+      "requirement": "Reviewed alias matching",
+      "result": "PASS",
+      "evidence": "3 source-spelling aliases; held-out alias 3/3; English only"
+    },
+    {
+      "gate": 10,
+      "requirement": "Conservative fuzzy matching",
+      "result": "FAIL",
+      "evidence": "Mechanics pass fixtures; held-out mild typo 7/11, strong typo 3/11: broad claim fails"
+    },
+    {
+      "gate": 11,
+      "requirement": "No-match behavior",
+      "result": "PASS",
+      "evidence": "68/68 negative held-out queries abstain"
+    },
+    {
+      "gate": 12,
+      "requirement": "False-positive controls",
+      "result": "PASS",
+      "evidence": "Wrong unique 0; candidate FP 0 on this authored sample only"
+    },
+    {
+      "gate": 13,
+      "requirement": "Ambiguity first-class",
+      "result": "PASS",
+      "evidence": "Explicit candidate state/set; exact ambiguity categories 18/18; overall quality still fails gate 31"
+    },
+    {
+      "gate": 14,
+      "requirement": "Strength distinctions",
+      "result": "PASS",
+      "evidence": "Literal strength/basis constraints; wrong-strength negatives and integration tests"
+    },
+    {
+      "gate": 15,
+      "requirement": "Form distinctions",
+      "result": "PASS",
+      "evidence": "Stored forms preserved; wrong-form 11/11; tests"
+    },
+    {
+      "gate": 16,
+      "requirement": "Distance calculation",
+      "result": "PASS",
+      "evidence": "Haversine fixtures including dateline/antipodal; spherical approximation only"
+    },
+    {
+      "gate": 17,
+      "requirement": "Radius filtering",
+      "result": "PASS",
+      "evidence": "Actual PostgreSQL full-precision inside/outside/inclusive boundary"
+    },
+    {
+      "gate": 18,
+      "requirement": "stock_confirmed_at used",
+      "result": "PASS",
+      "evidence": "Actual stored confirmation/future-time/updated_at cases"
+    },
+    {
+      "gate": 19,
+      "requirement": "Zero stock unavailable",
+      "result": "PASS",
+      "evidence": "Actual PostgreSQL zero-stock exclusion even with unconfirmed option"
+    },
+    {
+      "gate": 20,
+      "requirement": "Freshness policy documented/tested",
+      "result": "PASS",
+      "evidence": "24h configurable 1..168; threshold/timezone/future fixtures"
+    },
+    {
+      "gate": 21,
+      "requirement": "Deterministic ranking",
+      "result": "PASS",
+      "evidence": "Freshness, distance or comparable price, UUID ties; tests"
+    },
+    {
+      "gate": 22,
+      "requirement": "Versioned evaluation dataset",
+      "result": "PASS",
+      "evidence": "v1 manifests; 206 development / 211 held-out"
+    },
+    {
+      "gate": 23,
+      "requirement": "Query provenance",
+      "result": "PASS",
+      "evidence": "Origin metadata; no actual-user queries"
+    },
+    {
+      "gate": 24,
+      "requirement": "Clean tuning/held-out split",
+      "result": "PASS",
+      "evidence": "No shared target brands/ingredients/families or normalized queries"
+    },
+    {
+      "gate": 25,
+      "requirement": "Leakage audit",
+      "result": "PASS",
+      "evidence": "dataset-audit.json; 8 initial dev duplicate negatives removed before tuning"
+    },
+    {
+      "gate": 26,
+      "requirement": "Held-out frozen before acceptance",
+      "result": "PASS",
+      "evidence": "Held-out SHA256 preserved before matcher/tuning"
+    },
+    {
+      "gate": 27,
+      "requirement": "Metrics predefined",
+      "result": "PASS",
+      "evidence": "P2-EVALUATION-PROTOCOL.md pinned in acceptance freeze"
+    },
+    {
+      "gate": 28,
+      "requirement": "Acceptance thresholds predefined",
+      "result": "PASS",
+      "evidence": "Eight unchanged numeric criteria and minimum split sizes"
+    },
+    {
+      "gate": 29,
+      "requirement": "Fuzzy configuration frozen",
+      "result": "PASS",
+      "evidence": "0.80 threshold / 0.08 margin; backend/lock/data hashes pinned"
+    },
+    {
+      "gate": 30,
+      "requirement": "Final held-out completed",
+      "result": "PASS",
+      "evidence": "held-out.json executed once on 2 October 2026"
+    },
+    {
+      "gate": 31,
+      "requirement": "Required acceptance thresholds met",
+      "result": "FAIL",
+      "evidence": "FAIL: ambiguity 80/93 = 86.0215% <95%; other seven criteria pass"
+    },
+    {
+      "gate": 32,
+      "requirement": "Category breakdown",
+      "result": "PASS",
+      "evidence": "All 22 held-out categories and counts below"
+    },
+    {
+      "gate": 33,
+      "requirement": "False positives reviewed",
+      "result": "PASS",
+      "evidence": "No FP cases observed; inspected 68 negative decisions and all C errors"
+    },
+    {
+      "gate": 34,
+      "requirement": "False negatives reviewed",
+      "result": "PASS",
+      "evidence": "All 13 misses individually listed with source targets below"
+    },
+    {
+      "gate": 35,
+      "requirement": "Ambiguity failures reviewed",
+      "result": "PASS",
+      "evidence": "13 expected ambiguous sets omitted, none incorrectly collapsed to unique"
+    },
+    {
+      "gate": 36,
+      "requirement": "A/B/C comparison",
+      "result": "PASS",
+      "evidence": "A175/211, B178/211, C198/211; benefit/cost comparison"
+    },
+    {
+      "gate": 37,
+      "requirement": "Error analysis",
+      "result": "PASS",
+      "evidence": "Short-name/transposition/salt-token rules; authorship and label limits"
+    },
+    {
+      "gate": 38,
+      "requirement": "Performance measured",
+      "result": "PASS",
+      "evidence": "Real HTTP/PostgreSQL; 1200 measured requests; synthetic 198 inventory rows"
+    },
+    {
+      "gate": 39,
+      "requirement": "Automated tests pass",
+      "result": "PASS",
+      "evidence": "184 passed / 0 failed / 0 skipped; lint/source/build pass"
+    },
+    {
+      "gate": 40,
+      "requirement": "No unexplained required skips",
+      "result": "PASS",
+      "evidence": "0 skipped; actual PostgreSQL prerequisites mandatory"
+    },
+    {
+      "gate": 41,
+      "requirement": "P0/P1 behavior preserved",
+      "result": "PASS",
+      "evidence": "Original suite and P1 restart persistence pass at new schema head"
+    },
+    {
+      "gate": 42,
+      "requirement": "Security/privacy reviewed",
+      "result": "PASS",
+      "evidence": "Typed public models; bound SQL; no query/location persistence; limits below"
+    },
+    {
+      "gate": 43,
+      "requirement": "Alternatives documented",
+      "result": "PASS",
+      "evidence": "ADR0003 compares nine alternatives; only chosen pipeline measured"
+    },
+    {
+      "gate": 44,
+      "requirement": "Technical debt documented",
+      "result": "PASS",
+      "evidence": "Section46; scaling, process supervision, labels and multilingual gaps"
+    },
+    {
+      "gate": 45,
+      "requirement": "False-confidence risks documented",
+      "result": "PASS",
+      "evidence": "Sections47-49; no real-user/stock/safety inference"
+    },
+    {
+      "gate": 46,
+      "requirement": "Claim audit",
+      "result": "PASS",
+      "evidence": "Section50 classifies material claims"
+    },
+    {
+      "gate": 47,
+      "requirement": "Documentation updated",
+      "result": "PASS",
+      "evidence": "README/HANDOFF/CURRENT-STATE/ROADMAP/TESTING/source docs + full report"
+    },
+    {
+      "gate": 48,
+      "requirement": "Diff reviewed",
+      "result": "PASS",
+      "evidence": "Final staged diff reviewed; original source/history documents preserved"
+    },
+    {
+      "gate": 49,
+      "requirement": "No secrets committed",
+      "result": "PASS",
+      "evidence": "Private-secret byte scan and staged path review; credentials ignored"
+    },
+    {
+      "gate": 50,
+      "requirement": "Working tree clean",
+      "result": "PASS",
+      "evidence": "Final post-commit receipt verifies porcelain empty; at report authoring commit pending"
+    },
+    {
+      "gate": 51,
+      "requirement": "Local P2 milestone commit",
+      "result": "PASS",
+      "evidence": "Final git log / ignored P2 milestone receipt records the report-containing commit"
+    }
+  ]
+}

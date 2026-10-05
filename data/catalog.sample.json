@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "scope": "private_noncommercial_academic_source_sample",
+  "attribution": "Getz Pharma all rights reserved",
+  "clinical_equivalence": "NOT_ESTABLISHED",
+  "artifacts": [
+    {
+      "file": "pakistan-directory.html",
+      "url": "https://getzpharma.com/products/?country=pakistan",
+      "resolved_url": "https://getzpharma.com/products/?country=pakistan",
+      "sha256": "ff067d7be4fa2a04e5ec7f91056719f6f0274c48eb508c92d5f1d7f44d5eabfe",
+      "retrieved_at": "2026-10-01T22:58:34.133853+00:00",
+      "bytes": 140697
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://getzpharma.com/robots.txt",
+      "resolved_url": "https://getzpharma.com/robots.txt",
+      "sha256": "fb2bb8835843716cf081ef755067d06acb2bf304a4136daf38b601fb933a685f",
+      "retrieved_at": "2026-10-01T22:58:44.610036+00:00",
+      "bytes": 188
+    },
+    {
+      "file": "terms.html",
+      "url": "https://getzpharma.com/terms-of-use/",
+      "resolved_url": "https://getzpharma.com/terms-of-use/",
+      "sha256": "96515e89b7619bee91b7494755ee358399d93445dce87fb52acfc5686b4c9681",
+      "retrieved_at": "2026-10-01T22:57:13.262896+00:00",
+      "bytes": 70431
+    },
+    {
+      "file": "fexet-5.html",
+      "url": "https://getzpharma.com/product/fexet-5/",
+      "resolved_url": "https://getzpharma.com/product/fexet-5/",
+      "sha256": "77764921ffa3b54488917ca94d710b480f4c2aa2d7762d379501b3392b94cc77",
+      "retrieved_at": "2026-10-01T22:58:55.446659+00:00",
+      "bytes": 72177
+    },
+    {
+      "file": "covam.html",
+      "url": "https://getzpharma.com/product/covam/",
+      "resolved_url": "https://getzpharma.com/product/covam/",
+      "sha256": "3fdf0f2fdaecfb2a8fbb79531e04839b41519697b5e756ed4c7f1f760d3627f8",
+      "retrieved_at": "2026-10-01T22:57:13.505324+00:00",
+      "bytes": 71921
+    },
+    {
+      "file": "mebever-mr-2.html",
+      "url": "https://getzpharma.com/product/mebever-mr-2/",
+      "resolved_url": "https://getzpharma.com/product/mebever-mr-2/",
+      "sha256": "9c716a9f851cc59799d94dc9c2c451ef51bafe9d51e9244e9888a621e12a26c0",
+      "retrieved_at": "2026-10-01T22:59:06.333170+00:00",
+      "bytes": 70308
+    },
+    {
+      "file": "lilac.html",
+      "url": "https://getzpharma.com/product/lilac-2/",
+      "resolved_url": "https://getzpharma.com/product/lilac-2/",
+      "sha256": "80c07dc46bdf9a84568513766cc381d875f77b12f18359eaf9c9569e98242658",
+      "retrieved_at": "2026-10-01T22:57:13.625966+00:00",
+      "bytes": 70324
+    },
+    {
+      "file": "salbo.html",
+      "url": "https://getzpharma.com/product/salbo-hfa/",
+      "resolved_url": "https://getzpharma.com/product/salbo-hfa/",
+      "sha256": "3ec41f2ca5cc1ddcf9bdf3ad913869087501c46c21a9ea768ba67e69e9bbd522",
+      "retrieved_at": "2026-10-01T22:57:13.683973+00:00",
+      "bytes": 72426
+    },
+    {
+      "file": "fexet-pakistan.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-insert-folded.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-insert-folded.pdf",
+      "sha256": "3dabd40839472c8850d8e644824add29416fb51ff00ea57f9f6d1958b433cb1c",
+      "retrieved_at": "2026-10-01T22:57:13.332819+00:00",
+      "bytes": 44363
+    },
+    {
+      "file": "covam.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/12/Covam-insert.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/12/Covam-insert.pdf",
+      "sha256": "566a5246a6ee3376104d4bc43268a23fcc60ee1322388e0e35cec12a5e8b02f5",
+      "retrieved_at": "2026-10-01T22:57:13.397745+00:00",
+      "bytes": 51433
+    },
+    {
+      "file": "mebever.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Mebever-MR-Caps-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Mebever-MR-Caps-Leaflet-Pakistan.pdf",
+      "sha256": "f19c893f5faa88c4935bea5af53846152ce4bf6a2a3e6757d2953ce20c883096",
+      "retrieved_at": "2026-10-01T23:00:56.107620+00:00",
+      "bytes": 224237
+    },
+    {
+      "file": "lilac.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Leaflet-Lilac-Folded-Herbion-200010300-07-06-2018.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Leaflet-Lilac-Folded-Herbion-200010300-07-06-2018.pdf",
+      "sha256": "4d8e6ea9e9b8dbe6b48a549e3ab5f2e9ce41f12834a2b83c97987e7051875625",
+      "retrieved_at": "2026-10-01T23:00:34.492680+00:00",
+      "bytes": 1278719
+    },
+    {
+      "file": "salbo.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Salbo-HFA-Leaflet-new.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Salbo-HFA-Leaflet-new.pdf",
+      "sha256": "a2afc4b59053d0ae31705953433db581e0e7f3758d9fde4c20e037473df08dd3",
+      "retrieved_at": "2026-10-01T23:00:45.420405+00:00",
+      "bytes": 1216200
+    }
+  ],
+  "records": [
+    {
+      "product_id": "0b13894c-c47a-5561-ac10-fe9301176e92",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "60",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: QUALITATIVE & QUANTITATIVE COMPOSITION; 60 mg presentation",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride; original salt identity retained.",
+        "The 10-tablet pack is selected from the two stated 60 mg pack sizes.",
+        "Release characteristics are not inferred."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "82aa2487-5d40-576a-85d8-215a269dc7df",
+      "brand": "Covam",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "80",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "covam.html",
+      "leaflet": "covam.pdf",
+      "source_sections": [
+        "Page 1: composition for 5 mg + 80 mg; description and oral administration",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Amlodipine amount uses the stated active-moiety basis, with besylate retained separately.",
+        "Only the 5 mg + 80 mg presentation is sampled.",
+        "No release type is assumed."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "3634e4ae-66e2-5b06-a642-25fe5ba017b4",
+      "brand": "Mebever MR",
+      "ingredients": [
+        {
+          "name": "Mebeverine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "200",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "extended_release",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "capsule"
+      },
+      "product_page": "mebever-mr-2.html",
+      "leaflet": "mebever.pdf",
+      "source_sections": [
+        "Page 1: composition and explicit extended-release pellets",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Extended release is supported by the leaflet, not inferred solely from MR.",
+        "HCl expanded to hydrochloride."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "6169aa28-c263-5a16-839b-2b69c0a3d1df",
+      "brand": "Lilac",
+      "ingredients": [
+        {
+          "name": "Lactulose",
+          "salt_basis": null,
+          "strength": {
+            "amount": "3.35",
+            "unit": "g",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "syrup",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Herbion Pakistan (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "120",
+        "unit": "mL"
+      },
+      "product_page": "lilac.html",
+      "leaflet": "lilac.pdf",
+      "source_sections": [
+        "Page 1: composition and oral route, visually inspected (PDF extraction was empty)",
+        "Page 2: 120 mL bottle and manufactured-by/for footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "3.35 g per 5 mL is concentration; 120 mL is bottle volume.",
+        "Physical manufacturer is Herbion, not the manufactured-for publisher.",
+        "Release type remains unknown."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "69d7d1b8-86f0-5d10-897a-52fefe80eece",
+      "brand": "Salbo HFA",
+      "ingredients": [
+        {
+          "name": "Salbutamol",
+          "salt_basis": "as salbutamol sulphate",
+          "strength": {
+            "amount": "100",
+            "unit": "mcg",
+            "per_amount": "1",
+            "per_unit": "actuation"
+          }
+        }
+      ],
+      "dosage_form": "metered-dose inhaler",
+      "route": "inhalation",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "200",
+        "unit": "inhalation"
+      },
+      "product_page": "salbo.html",
+      "leaflet": "salbo.pdf",
+      "source_sections": [
+        "Page 1: description, composition and inhaled route",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Strength is active salbutamol per actuation; sulphate basis retained.",
+        "Pack count preserves the source term inhalations, not a fabricated bottle volume.",
+        "No release type is assumed."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    }
+  ]
+}

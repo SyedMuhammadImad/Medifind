@@ -1,0 +1,2979 @@
+{
+  "schema_version": 2,
+  "scope": "private_noncommercial_academic_source_sample",
+  "attribution": "Getz Pharma all rights reserved",
+  "clinical_equivalence": "NOT_ESTABLISHED",
+  "artifacts": [
+    {
+      "file": "pakistan-directory.html",
+      "url": "https://getzpharma.com/products/?country=pakistan",
+      "resolved_url": "https://getzpharma.com/products/?country=pakistan",
+      "sha256": "ff067d7be4fa2a04e5ec7f91056719f6f0274c48eb508c92d5f1d7f44d5eabfe",
+      "retrieved_at": "2026-10-01T22:58:34.133853+00:00",
+      "bytes": 140697
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://getzpharma.com/robots.txt",
+      "resolved_url": "https://getzpharma.com/robots.txt",
+      "sha256": "fb2bb8835843716cf081ef755067d06acb2bf304a4136daf38b601fb933a685f",
+      "retrieved_at": "2026-10-01T22:58:44.610036+00:00",
+      "bytes": 188
+    },
+    {
+      "file": "terms.html",
+      "url": "https://getzpharma.com/terms-of-use/",
+      "resolved_url": "https://getzpharma.com/terms-of-use/",
+      "sha256": "96515e89b7619bee91b7494755ee358399d93445dce87fb52acfc5686b4c9681",
+      "retrieved_at": "2026-10-01T22:57:13.262896+00:00",
+      "bytes": 70431
+    },
+    {
+      "file": "fexet-5.html",
+      "url": "https://getzpharma.com/product/fexet-5/",
+      "resolved_url": "https://getzpharma.com/product/fexet-5/",
+      "sha256": "77764921ffa3b54488917ca94d710b480f4c2aa2d7762d379501b3392b94cc77",
+      "retrieved_at": "2026-10-01T22:58:55.446659+00:00",
+      "bytes": 72177
+    },
+    {
+      "file": "covam.html",
+      "url": "https://getzpharma.com/product/covam/",
+      "resolved_url": "https://getzpharma.com/product/covam/",
+      "sha256": "3fdf0f2fdaecfb2a8fbb79531e04839b41519697b5e756ed4c7f1f760d3627f8",
+      "retrieved_at": "2026-10-01T22:57:13.505324+00:00",
+      "bytes": 71921
+    },
+    {
+      "file": "mebever-mr-2.html",
+      "url": "https://getzpharma.com/product/mebever-mr-2/",
+      "resolved_url": "https://getzpharma.com/product/mebever-mr-2/",
+      "sha256": "9c716a9f851cc59799d94dc9c2c451ef51bafe9d51e9244e9888a621e12a26c0",
+      "retrieved_at": "2026-10-01T22:59:06.333170+00:00",
+      "bytes": 70308
+    },
+    {
+      "file": "lilac.html",
+      "url": "https://getzpharma.com/product/lilac-2/",
+      "resolved_url": "https://getzpharma.com/product/lilac-2/",
+      "sha256": "80c07dc46bdf9a84568513766cc381d875f77b12f18359eaf9c9569e98242658",
+      "retrieved_at": "2026-10-01T22:57:13.625966+00:00",
+      "bytes": 70324
+    },
+    {
+      "file": "salbo.html",
+      "url": "https://getzpharma.com/product/salbo-hfa/",
+      "resolved_url": "https://getzpharma.com/product/salbo-hfa/",
+      "sha256": "3ec41f2ca5cc1ddcf9bdf3ad913869087501c46c21a9ea768ba67e69e9bbd522",
+      "retrieved_at": "2026-10-01T22:57:13.683973+00:00",
+      "bytes": 72426
+    },
+    {
+      "file": "fexet-pakistan.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-insert-folded.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-insert-folded.pdf",
+      "sha256": "3dabd40839472c8850d8e644824add29416fb51ff00ea57f9f6d1958b433cb1c",
+      "retrieved_at": "2026-10-01T22:57:13.332819+00:00",
+      "bytes": 44363
+    },
+    {
+      "file": "covam.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/12/Covam-insert.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/12/Covam-insert.pdf",
+      "sha256": "566a5246a6ee3376104d4bc43268a23fcc60ee1322388e0e35cec12a5e8b02f5",
+      "retrieved_at": "2026-10-01T22:57:13.397745+00:00",
+      "bytes": 51433
+    },
+    {
+      "file": "mebever.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Mebever-MR-Caps-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Mebever-MR-Caps-Leaflet-Pakistan.pdf",
+      "sha256": "f19c893f5faa88c4935bea5af53846152ce4bf6a2a3e6757d2953ce20c883096",
+      "retrieved_at": "2026-10-01T23:00:56.107620+00:00",
+      "bytes": 224237
+    },
+    {
+      "file": "lilac.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Leaflet-Lilac-Folded-Herbion-200010300-07-06-2018.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Leaflet-Lilac-Folded-Herbion-200010300-07-06-2018.pdf",
+      "sha256": "4d8e6ea9e9b8dbe6b48a549e3ab5f2e9ce41f12834a2b83c97987e7051875625",
+      "retrieved_at": "2026-10-01T23:00:34.492680+00:00",
+      "bytes": 1278719
+    },
+    {
+      "file": "salbo.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Salbo-HFA-Leaflet-new.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Salbo-HFA-Leaflet-new.pdf",
+      "sha256": "a2afc4b59053d0ae31705953433db581e0e7f3758d9fde4c20e037473df08dd3",
+      "retrieved_at": "2026-10-01T23:00:45.420405+00:00",
+      "bytes": 1216200
+    },
+    {
+      "file": "p2-getryl-2.html",
+      "url": "https://getzpharma.com/product/getryl-2/",
+      "resolved_url": "https://getzpharma.com/product/getryl-2/",
+      "sha256": "a9e58beea3aadb857f31b3883f8e2b579cdf3ea404b021e530cb9b7c50b455aa",
+      "retrieved_at": "2026-10-02T10:30:09.971976+00:00",
+      "bytes": 72876
+    },
+    {
+      "file": "p2-getryl-2.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Getryl-Tab-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Getryl-Tab-Leaflet-Pakistan.pdf",
+      "sha256": "3af217ab5e19b80c1405f53f018154b47a9cf87a08ddd46ad01806c91531e4da",
+      "retrieved_at": "2026-10-02T10:30:21.191705+00:00",
+      "bytes": 382211
+    },
+    {
+      "file": "p2-rovista-3.html",
+      "url": "https://getzpharma.com/product/rovista-3/",
+      "resolved_url": "https://getzpharma.com/product/rovista-3/",
+      "sha256": "17cf1b7b07fee366fded74a55bb2ce990563f907a58b81031e855f2d2dd02238",
+      "retrieved_at": "2026-10-02T10:30:31.741473+00:00",
+      "bytes": 78740
+    },
+    {
+      "file": "p2-rovista-3.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Rovista-Leaflet-FOLDED-1.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Rovista-Leaflet-FOLDED-1.pdf",
+      "sha256": "09ec91652ed910bee47440a2f8aa771d9c2a52ce8bc6d6e5d2c2112d6bf9a026",
+      "retrieved_at": "2026-10-02T10:30:42.447654+00:00",
+      "bytes": 48870
+    },
+    {
+      "file": "p2-lipiget-2.html",
+      "url": "https://getzpharma.com/product/lipiget-2/",
+      "resolved_url": "https://getzpharma.com/product/lipiget-2/",
+      "sha256": "e06198b8362ac0a41a0630eb0f88c4d0c7f85a1635296877c27919c16b6a1ea9",
+      "retrieved_at": "2026-10-02T10:30:52.993775+00:00",
+      "bytes": 72631
+    },
+    {
+      "file": "p2-lipiget-2.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Lipiget-Tab-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Lipiget-Tab-Leaflet-Pakistan.pdf",
+      "sha256": "7160d89a99b02921c676dc11cf88bbcedae86472ee304b35805830c7296df7d5",
+      "retrieved_at": "2026-10-02T10:31:03.865115+00:00",
+      "bytes": 414525
+    },
+    {
+      "file": "p2-nexum.html",
+      "url": "https://getzpharma.com/product/nexum/",
+      "resolved_url": "https://getzpharma.com/product/nexum/",
+      "sha256": "9fbc13469309132e99a57e49800d6f82bfeee92e486d3942a7f291d8b20e1de6",
+      "retrieved_at": "2026-10-02T10:31:14.446393+00:00",
+      "bytes": 72337
+    },
+    {
+      "file": "p2-nexum.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Nexum-Caps-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Nexum-Caps-Leaflet-Pakistan.pdf",
+      "sha256": "26f6339ad736232b8bc016dad4f4ba514002b1a5f09f65a3ceff7a5cdddf2dbb",
+      "retrieved_at": "2026-10-02T10:31:25.435518+00:00",
+      "bytes": 346229
+    },
+    {
+      "file": "p2-risek.html",
+      "url": "https://getzpharma.com/product/risek/",
+      "resolved_url": "https://getzpharma.com/product/risek/",
+      "sha256": "e1a0267821a365f7da560aa56256f7749b39ee785f4599e8bcee68be2e29cdc8",
+      "retrieved_at": "2026-10-02T10:31:36.112762+00:00",
+      "bytes": 73806
+    },
+    {
+      "file": "p2-risek.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Risek-Caps-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Risek-Caps-Leaflet-Pakistan.pdf",
+      "sha256": "b4904b5c67ce9c7a9a9fb21c2a5d91d141d777b96fed40454947d02b32eed51b",
+      "retrieved_at": "2026-10-02T10:31:47.118205+00:00",
+      "bytes": 433571
+    },
+    {
+      "file": "p2-montiget-2.html",
+      "url": "https://getzpharma.com/product/montiget-2/",
+      "resolved_url": "https://getzpharma.com/product/montiget-2/",
+      "sha256": "390cc1daa27ae94582fd0fdb165dab1d1d379acb290f9cd7717e7bdec0b2034f",
+      "retrieved_at": "2026-10-02T10:31:57.661650+00:00",
+      "bytes": 73379
+    },
+    {
+      "file": "p2-montiget-2.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Montiget-Range-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Montiget-Range-Leaflet-Pakistan.pdf",
+      "sha256": "b6522fef2ce84de145f46ec42dc2212ea809132d209b499a02866d57e0b91d79",
+      "retrieved_at": "2026-10-02T10:32:08.524517+00:00",
+      "bytes": 368501
+    },
+    {
+      "file": "p2-claritek-6.html",
+      "url": "https://getzpharma.com/product/claritek-6/",
+      "resolved_url": "https://getzpharma.com/product/claritek-6/",
+      "sha256": "c6cd492910e9b78577794c5902778291650a120033ce2749d7cfb6dce2af976a",
+      "retrieved_at": "2026-10-02T10:32:19.355662+00:00",
+      "bytes": 77298
+    },
+    {
+      "file": "p2-claritek-6.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Claritek-Range-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Claritek-Range-Leaflet-Pakistan.pdf",
+      "sha256": "e6a4619ce9d81880722b0c2980f5bbee75bde4f13a3b52c30010548d337c7bab",
+      "retrieved_at": "2026-10-02T10:32:30.406892+00:00",
+      "bytes": 538643
+    },
+    {
+      "file": "p2-getformin-2.html",
+      "url": "https://getzpharma.com/product/getformin-2/",
+      "resolved_url": "https://getzpharma.com/product/getformin-2/",
+      "sha256": "945b6efaf98dee74ddfa801170ac2bb7cc10bed5999283d40fdf5c7e5a48bf42",
+      "retrieved_at": "2026-10-02T10:32:41.230816+00:00",
+      "bytes": 72213
+    },
+    {
+      "file": "p2-getformin-2.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Getformin-Tab-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Getformin-Tab-Leaflet-Pakistan.pdf",
+      "sha256": "1c3c4ce04f31d4649d4a92c1a1b523efd779c6d2df2be85fd57e9835f4f33389",
+      "retrieved_at": "2026-10-02T10:32:52.525348+00:00",
+      "bytes": 338201
+    },
+    {
+      "file": "p2-tasmi-4.html",
+      "url": "https://getzpharma.com/product/tasmi-4/",
+      "resolved_url": "https://getzpharma.com/product/tasmi-4/",
+      "sha256": "1c45e02a78d2cf633686621ed808ef74bfdad3bfbc70362db1e05c543b7bd33f",
+      "retrieved_at": "2026-10-02T10:33:03.764943+00:00",
+      "bytes": 73899
+    },
+    {
+      "file": "p2-tasmi-4.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Tasmi-Tab-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Tasmi-Tab-Leaflet-Pakistan.pdf",
+      "sha256": "afcf79da455f0104b3279978211a815bc425286c32b845b456df37b18388b399",
+      "retrieved_at": "2026-10-02T10:33:14.602881+00:00",
+      "bytes": 335425
+    },
+    {
+      "file": "p2-zetro-5.html",
+      "url": "https://getzpharma.com/product/zetro-5/",
+      "resolved_url": "https://getzpharma.com/product/zetro-5/",
+      "sha256": "909222fb7481e23a43c72e4dfc84b165cd93a740fb7da5f6215cc3cb214dc224",
+      "retrieved_at": "2026-10-02T10:33:25.200842+00:00",
+      "bytes": 73249
+    },
+    {
+      "file": "p2-zetro-5.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Zetro-Range-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Zetro-Range-Leaflet-Pakistan.pdf",
+      "sha256": "091efad105d41f4c094e5132e77e263dcd7df21bd55691da5dbb26042d3cec85",
+      "retrieved_at": "2026-10-02T10:33:36.133125+00:00",
+      "bytes": 421361
+    },
+    {
+      "file": "p2-cipesta.html",
+      "url": "https://getzpharma.com/product/cipesta/",
+      "resolved_url": "https://getzpharma.com/product/cipesta/",
+      "sha256": "6b885527d50ca52364ea8e64e34abca1ec7e3be5896cd444c19a21d0f0b577c3",
+      "retrieved_at": "2026-10-02T10:33:47.967571+00:00",
+      "bytes": 76205
+    },
+    {
+      "file": "p2-cipesta.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Cipesta-Tab-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Cipesta-Tab-Leaflet-Pakistan.pdf",
+      "sha256": "9f21979c9eaaa2e9b123ec2c5c4ce228a3bb60664bfdc38fee96199f5d4a4c80",
+      "retrieved_at": "2026-10-02T10:33:58.911019+00:00",
+      "bytes": 577886
+    },
+    {
+      "file": "p2-fexet-d.html",
+      "url": "https://getzpharma.com/product/fexet-d/",
+      "resolved_url": "https://getzpharma.com/product/fexet-d/",
+      "sha256": "52dd9af376681f8d9cf9c9430a6be0661e62642f1eb0f6b2ede315a03029858a",
+      "retrieved_at": "2026-10-02T10:34:09.779928+00:00",
+      "bytes": 70859
+    },
+    {
+      "file": "p2-fexet-d.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-D-insert-folded.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-D-insert-folded.pdf",
+      "sha256": "5a8558a97d2ec00e07b33204cccb94e0743bd5c7ffb45e71df02a35c7a96bf97",
+      "retrieved_at": "2026-10-02T10:34:20.499703+00:00",
+      "bytes": 44540
+    },
+    {
+      "file": "p2-cova.html",
+      "url": "https://getzpharma.com/product/cova/",
+      "resolved_url": "https://getzpharma.com/product/cova/",
+      "sha256": "1480b51364f6a1979d83cc90e33d7689db8776a0678b458d42ecaedb2aa48002",
+      "retrieved_at": "2026-10-02T10:34:31.066041+00:00",
+      "bytes": 72392
+    },
+    {
+      "file": "p2-cova.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2017/07/Cova-Tab-Leaflet-2-copy-compressed.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2017/07/Cova-Tab-Leaflet-2-copy-compressed.pdf",
+      "sha256": "7884df85066a0f3dbbc95300491976827e40e6fb7f348fde10d8e4208db3860e",
+      "retrieved_at": "2026-10-02T10:34:41.699400+00:00",
+      "bytes": 184670
+    },
+    {
+      "file": "p2-covamplus.html",
+      "url": "https://getzpharma.com/product/covamplus/",
+      "resolved_url": "https://getzpharma.com/product/covamplus/",
+      "sha256": "13a7c865f78ad58e585d16398645403a2d46c90456f303f69a006668db1c765e",
+      "retrieved_at": "2026-10-02T10:34:52.486484+00:00",
+      "bytes": 72357
+    },
+    {
+      "file": "p2-covamplus.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2022/02/CovamPlus-Tab-Leaflet-1.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2022/02/CovamPlus-Tab-Leaflet-1.pdf",
+      "sha256": "b4d2581e7b906b0117ca3ca84213f17b24f685945c69530aa7db820bf8d4d0ec",
+      "retrieved_at": "2026-10-02T10:35:03.333336+00:00",
+      "bytes": 307121
+    },
+    {
+      "file": "p2-gabica-8.html",
+      "url": "https://getzpharma.com/product/gabica-8/",
+      "resolved_url": "https://getzpharma.com/product/gabica-8/",
+      "sha256": "66ee815cca32e72857783996c933d3b69338a37a8e1e9d8156e9a244818eb04e",
+      "retrieved_at": "2026-10-02T10:35:13.911475+00:00",
+      "bytes": 73924
+    },
+    {
+      "file": "p2-gabica-8.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/08/Gabica-Caps-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/08/Gabica-Caps-Leaflet-Pakistan.pdf",
+      "sha256": "3af397dd4dfa4e74fbbf6d788f26487f8db38943cd363b694fdf348f6e929568",
+      "retrieved_at": "2026-10-02T10:35:24.760326+00:00",
+      "bytes": 372472
+    },
+    {
+      "file": "p2-cefiget-5.html",
+      "url": "https://getzpharma.com/product/cefiget-5/",
+      "resolved_url": "https://getzpharma.com/product/cefiget-5/",
+      "sha256": "c925e6deba3ea90c8f17df6fa116677fb3815e58e847875821a78ce5fb293e59",
+      "retrieved_at": "2026-10-02T10:35:35.170452+00:00",
+      "bytes": 74517
+    },
+    {
+      "file": "p2-cefiget-5.pdf",
+      "url": "https://getzpharma.com/wp-content/uploads/2016/11/Cefiget-Range-Leaflet-Pakistan.pdf",
+      "resolved_url": "https://getzpharma.com/wp-content/uploads/2016/11/Cefiget-Range-Leaflet-Pakistan.pdf",
+      "sha256": "421744cff16ec7d3b6ca2a72bd6f660b2e28c7782a7edeaa005b15460cde5b70",
+      "retrieved_at": "2026-10-02T10:35:46.197135+00:00",
+      "bytes": 356378
+    }
+  ],
+  "records": [
+    {
+      "product_id": "0b13894c-c47a-5561-ac10-fe9301176e92",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "60",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: QUALITATIVE & QUANTITATIVE COMPOSITION; 60 mg presentation",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride; original salt identity retained.",
+        "The 10-tablet pack is selected from the two stated 60 mg pack sizes.",
+        "Release characteristics are not inferred."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "82aa2487-5d40-576a-85d8-215a269dc7df",
+      "brand": "Covam",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "80",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "covam.html",
+      "leaflet": "covam.pdf",
+      "source_sections": [
+        "Page 1: composition for 5 mg + 80 mg; description and oral administration",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Amlodipine amount uses the stated active-moiety basis, with besylate retained separately.",
+        "Only the 5 mg + 80 mg presentation is sampled.",
+        "No release type is assumed."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "3634e4ae-66e2-5b06-a642-25fe5ba017b4",
+      "brand": "Mebever MR",
+      "ingredients": [
+        {
+          "name": "Mebeverine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "200",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "extended_release",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "capsule"
+      },
+      "product_page": "mebever-mr-2.html",
+      "leaflet": "mebever.pdf",
+      "source_sections": [
+        "Page 1: composition and explicit extended-release pellets",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Extended release is supported by the leaflet, not inferred solely from MR.",
+        "HCl expanded to hydrochloride."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "6169aa28-c263-5a16-839b-2b69c0a3d1df",
+      "brand": "Lilac",
+      "ingredients": [
+        {
+          "name": "Lactulose",
+          "salt_basis": null,
+          "strength": {
+            "amount": "3.35",
+            "unit": "g",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "syrup",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Herbion Pakistan (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "120",
+        "unit": "mL"
+      },
+      "product_page": "lilac.html",
+      "leaflet": "lilac.pdf",
+      "source_sections": [
+        "Page 1: composition and oral route, visually inspected (PDF extraction was empty)",
+        "Page 2: 120 mL bottle and manufactured-by/for footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "3.35 g per 5 mL is concentration; 120 mL is bottle volume.",
+        "Physical manufacturer is Herbion, not the manufactured-for publisher.",
+        "Release type remains unknown."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "69d7d1b8-86f0-5d10-897a-52fefe80eece",
+      "brand": "Salbo HFA",
+      "ingredients": [
+        {
+          "name": "Salbutamol",
+          "salt_basis": "as salbutamol sulphate",
+          "strength": {
+            "amount": "100",
+            "unit": "mcg",
+            "per_amount": "1",
+            "per_unit": "actuation"
+          }
+        }
+      ],
+      "dosage_form": "metered-dose inhaler",
+      "route": "inhalation",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "200",
+        "unit": "inhalation"
+      },
+      "product_page": "salbo.html",
+      "leaflet": "salbo.pdf",
+      "source_sections": [
+        "Page 1: description, composition and inhaled route",
+        "Page 2: HOW SUPPLIED and manufacturer footer, visually inspected"
+      ],
+      "transformation_notes": [
+        "Strength is active salbutamol per actuation; sulphate basis retained.",
+        "Pack count preserves the source term inhalations, not a fabricated bottle volume.",
+        "No release type is assumed."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "1ada622c-9b35-5151-96f5-08106cdcabeb",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "30",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "60",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2e81b296-2984-5e1e-a030-e06ce2085225",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "120",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "dfc93242-307c-54c8-ab22-701ba001eba7",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "120",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2013535e-00c3-5b65-9706-ac454a2a95f5",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "180",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26",
+      "brand": "Fexet",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "180",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "fexet-5.html",
+      "leaflet": "fexet-pakistan.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for selected strength",
+        "Page 2: HOW SUPPLIED for selected pack; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "HCl expanded to hydrochloride, same salt identity.",
+        "Additional explicit composition/supply entry from previously qualified leaflet; no dose-regimen inference."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "53b8004b-57ce-5c37-adc9-d16dbfcccb4d",
+      "brand": "Covam",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "covam.html",
+      "leaflet": "covam.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for 5 mg + 160 mg; oral administration",
+        "Page 2: HOW SUPPLIED, 14 tablets; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "Additional explicit COMPOSITION and HOW SUPPLIED entry.",
+        "Active-moiety amlodipine basis and separate besylate retained."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "b28c5e67-145a-5a4d-863d-abdd1acd59ea",
+      "brand": "Covam",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "covam.html",
+      "leaflet": "covam.pdf",
+      "source_sections": [
+        "Page 1: COMPOSITION for 10 mg + 160 mg; oral administration",
+        "Page 2: HOW SUPPLIED, 14 tablets; previously visually reviewed manufacturer"
+      ],
+      "transformation_notes": [
+        "Additional explicit COMPOSITION and HOW SUPPLIED entry.",
+        "Active-moiety amlodipine basis and separate besylate retained."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2bdca557-00da-5218-b1a1-b6b6bab26767",
+      "brand": "Getryl",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "1",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getryl-2.html",
+      "leaflet": "p2-getryl-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "6a673efe-5cd3-583b-abab-b4e40aa82ceb",
+      "brand": "Getryl",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "2",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getryl-2.html",
+      "leaflet": "p2-getryl-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "63e7b31d-3a67-5c27-abce-1a2af9973e2a",
+      "brand": "Getryl",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "3",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getryl-2.html",
+      "leaflet": "p2-getryl-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "9d4f5b37-e166-5ab6-b461-863f24945b4e",
+      "brand": "Getryl",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "4",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "20",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getryl-2.html",
+      "leaflet": "p2-getryl-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "88ede133-9dd8-582e-93a1-d5efde999bea",
+      "brand": "Rovista",
+      "ingredients": [
+        {
+          "name": "Rosuvastatin",
+          "salt_basis": "as calcium salt",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-rovista-3.html",
+      "leaflet": "p2-rovista-3.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "18c9491c-2f50-5ef8-ae67-7b9e6724a54c",
+      "brand": "Rovista",
+      "ingredients": [
+        {
+          "name": "Rosuvastatin",
+          "salt_basis": "as calcium salt",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-rovista-3.html",
+      "leaflet": "p2-rovista-3.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "66252de9-fa6f-5f1d-939e-c82833059943",
+      "brand": "Rovista",
+      "ingredients": [
+        {
+          "name": "Rosuvastatin",
+          "salt_basis": "as calcium salt",
+          "strength": {
+            "amount": "20",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-rovista-3.html",
+      "leaflet": "p2-rovista-3.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "4358bdea-1a0e-5446-9c16-93837a817775",
+      "brand": "Lipiget",
+      "ingredients": [
+        {
+          "name": "Atorvastatin",
+          "salt_basis": "as calcium trihydrate salt",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-lipiget-2.html",
+      "leaflet": "p2-lipiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "020a7fcc-51d8-577c-89b3-1c6d9ccd702f",
+      "brand": "Lipiget",
+      "ingredients": [
+        {
+          "name": "Atorvastatin",
+          "salt_basis": "as calcium trihydrate salt",
+          "strength": {
+            "amount": "20",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-lipiget-2.html",
+      "leaflet": "p2-lipiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "aec6f422-ad38-5bd2-9da4-8ed0edf98c41",
+      "brand": "Lipiget",
+      "ingredients": [
+        {
+          "name": "Atorvastatin",
+          "salt_basis": "as calcium trihydrate salt",
+          "strength": {
+            "amount": "40",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-lipiget-2.html",
+      "leaflet": "p2-lipiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "264488b7-c6df-5660-ad10-3c4765c88073",
+      "brand": "Nexum",
+      "ingredients": [
+        {
+          "name": "Esomeprazole",
+          "salt_basis": "as magnesium trihydrate",
+          "strength": {
+            "amount": "20",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "enteric_coated_pellets",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-nexum.html",
+      "leaflet": "p2-nexum.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Leaflet explicitly states enteric-coated pellets; do not infer immediate release."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+      "brand": "Risek",
+      "ingredients": [
+        {
+          "name": "Omeprazole",
+          "salt_basis": null,
+          "strength": {
+            "amount": "20",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "enteric_coated_pellets",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-risek.html",
+      "leaflet": "p2-risek.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Leaflet explicitly states enteric-coated pellets."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "ce85e2ae-cacf-5171-98f5-2785f53623d8",
+      "brand": "Nexum",
+      "ingredients": [
+        {
+          "name": "Esomeprazole",
+          "salt_basis": "as magnesium trihydrate",
+          "strength": {
+            "amount": "40",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "enteric_coated_pellets",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-nexum.html",
+      "leaflet": "p2-nexum.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Leaflet explicitly states enteric-coated pellets; do not infer immediate release."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217",
+      "brand": "Risek",
+      "ingredients": [
+        {
+          "name": "Omeprazole",
+          "salt_basis": null,
+          "strength": {
+            "amount": "40",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": "enteric_coated_pellets",
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-risek.html",
+      "leaflet": "p2-risek.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Leaflet explicitly states enteric-coated pellets."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2e985542-75eb-54dc-84bc-134b25a07d66",
+      "brand": "Montiget",
+      "ingredients": [
+        {
+          "name": "Montelukast",
+          "salt_basis": "as montelukast sodium",
+          "strength": {
+            "amount": "4",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "sachet"
+          }
+        }
+      ],
+      "dosage_form": "granules",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "sachet"
+      },
+      "product_page": "p2-montiget-2.html",
+      "leaflet": "p2-montiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+      "brand": "Montiget",
+      "ingredients": [
+        {
+          "name": "Montelukast",
+          "salt_basis": "as montelukast sodium",
+          "strength": {
+            "amount": "4",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "chewable tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-montiget-2.html",
+      "leaflet": "p2-montiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "485f8298-48cd-5ca9-8f39-4ef820612753",
+      "brand": "Montiget",
+      "ingredients": [
+        {
+          "name": "Montelukast",
+          "salt_basis": "as montelukast sodium",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "chewable tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-montiget-2.html",
+      "leaflet": "p2-montiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "7b4d0d98-3645-5339-a2db-2fbb7613ea89",
+      "brand": "Montiget",
+      "ingredients": [
+        {
+          "name": "Montelukast",
+          "salt_basis": "as montelukast sodium",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-montiget-2.html",
+      "leaflet": "p2-montiget-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "52e8890c-cde7-5ecf-aa77-2c8de29b840d",
+      "brand": "Claritek",
+      "ingredients": [
+        {
+          "name": "Clarithromycin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "250",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-claritek-6.html",
+      "leaflet": "p2-claritek-6.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2c1fb8fd-9860-502c-b6a9-4f09913d9777",
+      "brand": "Claritek",
+      "ingredients": [
+        {
+          "name": "Clarithromycin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "500",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-claritek-6.html",
+      "leaflet": "p2-claritek-6.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "31c126a3-7113-5a2c-ba56-f2bcb93afc8d",
+      "brand": "Claritek",
+      "ingredients": [
+        {
+          "name": "Clarithromycin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "125",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "granules",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "50",
+        "unit": "mL"
+      },
+      "product_page": "p2-claritek-6.html",
+      "leaflet": "p2-claritek-6.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Concentration is per 5 mL after reconstitution; supplied mL amount is recorded separately."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "bbc0b1cd-4a68-5a82-9b64-ae4836b5cb15",
+      "brand": "Claritek",
+      "ingredients": [
+        {
+          "name": "Clarithromycin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "125",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "drops",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "25",
+        "unit": "mL"
+      },
+      "product_page": "p2-claritek-6.html",
+      "leaflet": "p2-claritek-6.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Concentration is per 5 mL after reconstitution; supplied mL amount is recorded separately."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "80d8c0ca-26d3-574f-a92c-2b4bdaa71ec9",
+      "brand": "Claritek",
+      "ingredients": [
+        {
+          "name": "Clarithromycin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "250",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "dry suspension",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "70",
+        "unit": "mL"
+      },
+      "product_page": "p2-claritek-6.html",
+      "leaflet": "p2-claritek-6.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Concentration is per 5 mL after reconstitution; supplied mL amount is recorded separately."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "76d1eff3-cc55-50e8-94e8-c8b84dcc7911",
+      "brand": "Getformin",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "1",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Metformin hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "500",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "30",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getformin-2.html",
+      "leaflet": "p2-getformin-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Combination product; not metformin monotherapy. HCl expanded to hydrochloride."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "412ce13e-ef58-5dab-a44a-6b66b597a029",
+      "brand": "Getformin",
+      "ingredients": [
+        {
+          "name": "Glimepiride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "2",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Metformin hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "500",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "30",
+        "unit": "tablet"
+      },
+      "product_page": "p2-getformin-2.html",
+      "leaflet": "p2-getformin-2.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Combination product; not metformin monotherapy. HCl expanded to hydrochloride."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+      "brand": "Tasmi",
+      "ingredients": [
+        {
+          "name": "Telmisartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "20",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-tasmi-4.html",
+      "leaflet": "p2-tasmi-4.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+      "brand": "Tasmi",
+      "ingredients": [
+        {
+          "name": "Telmisartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "40",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-tasmi-4.html",
+      "leaflet": "p2-tasmi-4.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "e4669d4e-310d-5477-98ce-04156a711988",
+      "brand": "Tasmi",
+      "ingredients": [
+        {
+          "name": "Telmisartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "80",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-tasmi-4.html",
+      "leaflet": "p2-tasmi-4.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "8f1940ea-50fb-5191-b57a-3e40f3e2dae4",
+      "brand": "Zetro",
+      "ingredients": [
+        {
+          "name": "Azithromycin",
+          "salt_basis": "as dihydrate",
+          "strength": {
+            "amount": "250",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "capsule"
+      },
+      "product_page": "p2-zetro-5.html",
+      "leaflet": "p2-zetro-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "c6feaffd-77f7-5649-8a36-a57eb4c7c56d",
+      "brand": "Zetro",
+      "ingredients": [
+        {
+          "name": "Azithromycin",
+          "salt_basis": "as dihydrate",
+          "strength": {
+            "amount": "500",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "3",
+        "unit": "tablet"
+      },
+      "product_page": "p2-zetro-5.html",
+      "leaflet": "p2-zetro-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "0f2b12fa-de67-5db6-a810-df3f4d16d66e",
+      "brand": "Zetro",
+      "ingredients": [
+        {
+          "name": "Azithromycin",
+          "salt_basis": "as dihydrate",
+          "strength": {
+            "amount": "200",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "suspension",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "15",
+        "unit": "mL"
+      },
+      "product_page": "p2-zetro-5.html",
+      "leaflet": "p2-zetro-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "359d1480-d379-54f8-ae73-549e9d9f40c3",
+      "brand": "Cipesta",
+      "ingredients": [
+        {
+          "name": "Ciprofloxacin",
+          "salt_basis": "as ciprofloxacin hydrochloride",
+          "strength": {
+            "amount": "250",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cipesta.html",
+      "leaflet": "p2-cipesta.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Strength is active ciprofloxacin equivalent, not hydrochloride mass. 750 mg dosing mentions are not supplied presentations."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "fc6501d4-0e48-5acc-80ef-279cab345179",
+      "brand": "Cipesta",
+      "ingredients": [
+        {
+          "name": "Ciprofloxacin",
+          "salt_basis": "as ciprofloxacin hydrochloride",
+          "strength": {
+            "amount": "500",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cipesta.html",
+      "leaflet": "p2-cipesta.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Strength is active ciprofloxacin equivalent, not hydrochloride mass. 750 mg dosing mentions are not supplied presentations."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+      "brand": "Fexet-D",
+      "ingredients": [
+        {
+          "name": "Fexofenadine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "60",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Pseudoephedrine hydrochloride",
+          "salt_basis": null,
+          "strength": {
+            "amount": "120",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-fexet-d.html",
+      "leaflet": "p2-fexet-d.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "HCl expanded to hydrochloride. Do not collapse to Fexet; two active ingredients."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "ea6f3ea2-1e0d-5730-b709-f5a55f614e18",
+      "brand": "Cova",
+      "ingredients": [
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "80",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cova.html",
+      "leaflet": "p2-cova.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "f43489dc-83c5-5b15-8b33-bd1585d1fce5",
+      "brand": "Cova",
+      "ingredients": [
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "80",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cova.html",
+      "leaflet": "p2-cova.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "82100d36-3eef-5bf7-836f-8cb43c68bc1f",
+      "brand": "Cova",
+      "ingredients": [
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cova.html",
+      "leaflet": "p2-cova.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "160655a5-9d44-5f10-b686-c504fff772ea",
+      "brand": "Cova",
+      "ingredients": [
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cova.html",
+      "leaflet": "p2-cova.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "b4d14310-b78b-5d8e-9d30-9bd659b515dc",
+      "brand": "Covam Plus",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "salt_basis": null,
+          "strength": {
+            "amount": "12.5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-covamplus.html",
+      "leaflet": "p2-covamplus.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "3b8dfce6-2d12-50f2-bafc-d003cce62886",
+      "brand": "Covam Plus",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "salt_basis": null,
+          "strength": {
+            "amount": "25",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-covamplus.html",
+      "leaflet": "p2-covamplus.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "45c6e729-f4f4-5f42-9d74-cb7ffa504bb3",
+      "brand": "Covam Plus",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "salt_basis": null,
+          "strength": {
+            "amount": "12.5",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-covamplus.html",
+      "leaflet": "p2-covamplus.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "a2bf3431-0591-5edb-8eb2-dc5e80a7543e",
+      "brand": "Covam Plus",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "160",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "salt_basis": null,
+          "strength": {
+            "amount": "25",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-covamplus.html",
+      "leaflet": "p2-covamplus.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "b2a17ab9-0562-57f4-9a76-d2029189c455",
+      "brand": "Covam Plus",
+      "ingredients": [
+        {
+          "name": "Amlodipine",
+          "salt_basis": "as amlodipine besylate",
+          "strength": {
+            "amount": "10",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Valsartan",
+          "salt_basis": null,
+          "strength": {
+            "amount": "320",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "salt_basis": null,
+          "strength": {
+            "amount": "25",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "28",
+        "unit": "tablet"
+      },
+      "product_page": "p2-covamplus.html",
+      "leaflet": "p2-covamplus.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+      "brand": "Gabica",
+      "ingredients": [
+        {
+          "name": "Pregabalin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "50",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-gabica-8.html",
+      "leaflet": "p2-gabica-8.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+      "brand": "Gabica",
+      "ingredients": [
+        {
+          "name": "Pregabalin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "75",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-gabica-8.html",
+      "leaflet": "p2-gabica-8.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "d97d2159-c28f-5bb9-8085-989386ccda6e",
+      "brand": "Gabica",
+      "ingredients": [
+        {
+          "name": "Pregabalin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "100",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-gabica-8.html",
+      "leaflet": "p2-gabica-8.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+      "brand": "Gabica",
+      "ingredients": [
+        {
+          "name": "Pregabalin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "150",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-gabica-8.html",
+      "leaflet": "p2-gabica-8.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+      "brand": "Gabica",
+      "ingredients": [
+        {
+          "name": "Pregabalin",
+          "salt_basis": null,
+          "strength": {
+            "amount": "300",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Getz Pharma (Pvt.) Limited",
+      "manufactured_for": null,
+      "pack_size": {
+        "amount": "14",
+        "unit": "capsule"
+      },
+      "product_page": "p2-gabica-8.html",
+      "leaflet": "p2-gabica-8.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "b9ce8105-07be-54fa-a87b-7e147ce0dbcd",
+      "brand": "Cefiget",
+      "ingredients": [
+        {
+          "name": "Cefixime",
+          "salt_basis": "as cefixime trihydrate",
+          "strength": {
+            "amount": "200",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "tablet"
+          }
+        }
+      ],
+      "dosage_form": "film-coated tablet",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Opal Laboratories (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "10",
+        "unit": "tablet"
+      },
+      "product_page": "p2-cefiget-5.html",
+      "leaflet": "p2-cefiget-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "4800040b-130e-5bb9-8153-30f8407b51fe",
+      "brand": "Cefiget",
+      "ingredients": [
+        {
+          "name": "Cefixime",
+          "salt_basis": "as cefixime trihydrate",
+          "strength": {
+            "amount": "400",
+            "unit": "mg",
+            "per_amount": "1",
+            "per_unit": "capsule"
+          }
+        }
+      ],
+      "dosage_form": "capsule",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Opal Laboratories (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "5",
+        "unit": "capsule"
+      },
+      "product_page": "p2-cefiget-5.html",
+      "leaflet": "p2-cefiget-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "e3091007-31e3-56a4-9ddb-1b8b243faf5d",
+      "brand": "Cefiget",
+      "ingredients": [
+        {
+          "name": "Cefixime",
+          "salt_basis": "as cefixime trihydrate",
+          "strength": {
+            "amount": "100",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "powder for oral suspension",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Opal Laboratories (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "30",
+        "unit": "mL"
+      },
+      "product_page": "p2-cefiget-5.html",
+      "leaflet": "p2-cefiget-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Strength per 5 mL after reconstitution; separately supplied bottle volume."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "3673eb12-b890-5458-9e74-ee0b85f34f08",
+      "brand": "Cefiget",
+      "ingredients": [
+        {
+          "name": "Cefixime",
+          "salt_basis": "as cefixime trihydrate",
+          "strength": {
+            "amount": "100",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "powder for oral suspension",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Opal Laboratories (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "60",
+        "unit": "mL"
+      },
+      "product_page": "p2-cefiget-5.html",
+      "leaflet": "p2-cefiget-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Strength per 5 mL after reconstitution; separately supplied bottle volume."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    },
+    {
+      "product_id": "705926a2-144e-5d2b-916c-db39e87defdb",
+      "brand": "Cefiget DS",
+      "ingredients": [
+        {
+          "name": "Cefixime",
+          "salt_basis": "as cefixime trihydrate",
+          "strength": {
+            "amount": "200",
+            "unit": "mg",
+            "per_amount": "5",
+            "per_unit": "mL"
+          }
+        }
+      ],
+      "dosage_form": "powder for oral suspension",
+      "route": "oral",
+      "release_type": null,
+      "manufacturer": "Opal Laboratories (Pvt.) Ltd.",
+      "manufactured_for": "Getz Pharma (Pvt.) Limited",
+      "pack_size": {
+        "amount": "30",
+        "unit": "mL"
+      },
+      "product_page": "p2-cefiget-5.html",
+      "leaflet": "p2-cefiget-5.pdf",
+      "source_sections": [
+        "Page 1: DESCRIPTION / COMPOSITION; stated strength basis and oral route",
+        "Page 2: HOW SUPPLIED; manufacturer footer visually inspected"
+      ],
+      "transformation_notes": [
+        "Manually transcribed source composition and corresponding supply entry.",
+        "Source owner: Getz Pharma; private noncommercial source transcription, not clinical review.",
+        "Unspecified release remains unknown; pack and strength denominator are separate.",
+        "Preserve explicit DS brand suffix and reconstituted concentration."
+      ],
+      "review": "codex_source_transcription_not_clinical_review"
+    }
+  ],
+  "source_owner": "Getz Pharma"
+}

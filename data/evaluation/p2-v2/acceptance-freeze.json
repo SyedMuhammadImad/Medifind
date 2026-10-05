@@ -1,0 +1,164 @@
+{
+  "frozen_at": "2026-10-05T12:38:37.493299+00:00",
+  "configuration": {
+    "scorer": "RapidFuzz.DamerauLevenshtein.normalized_similarity",
+    "threshold": 0.8,
+    "margin": 0.08,
+    "min_first_token": 4,
+    "long_token_min": 8,
+    "short_edit_budget": 1,
+    "long_edit_budget": 2,
+    "changed_tokens_max": 1,
+    "nonleading_generic_budget": 1,
+    "protected_suffixes": [
+      "xr",
+      "mr",
+      "sr",
+      "cr",
+      "er",
+      "xl",
+      "hfa",
+      "iv"
+    ]
+  },
+  "criteria": {
+    "wrong_unique_max": 0,
+    "wrong_qualifier_or_negative_unique_max": 0,
+    "unique_top1_min": 0.9,
+    "candidate_recall_at_10_min": 0.9,
+    "candidate_precision_min": 0.95,
+    "negative_no_match_min": 0.95,
+    "ambiguity_min": 0.95,
+    "decision_accuracy_min": 0.85,
+    "exact_alias_errors_max": 0,
+    "development_min": 70,
+    "held_out_min": 100
+  },
+  "leakage_audit": {
+    "pass_audit": true,
+    "problems": [],
+    "lexical_near_duplicates": [],
+    "query_sizes": {
+      "development": 147,
+      "held_out": 167
+    },
+    "source_component_counts": {
+      "development": 5,
+      "held_out": 5
+    },
+    "category_counts": {
+      "development": {
+        "exact_brand": 10,
+        "case": 5,
+        "punctuation": 5,
+        "exact_generic": 5,
+        "strength_form": 5,
+        "pack_specific": 5,
+        "ordinary_typo": 27,
+        "typo_strength_form": 25,
+        "hard_negative": 16,
+        "wrong_form": 5,
+        "suffix_negative": 6,
+        "similar_name_negative": 5,
+        "difficult_typo": 1,
+        "generic_typo": 5,
+        "approved_alias": 3,
+        "prefix_negative": 3,
+        "unsupported_name": 3,
+        "nonsense": 7,
+        "close_two_names": 2,
+        "collision_qualifier": 2,
+        "exact_precedence_negative": 2
+      },
+      "held_out": {
+        "exact_brand": 8,
+        "punctuation": 5,
+        "exact_generic": 5,
+        "ambiguous_brand": 3,
+        "ambiguous_generic": 3,
+        "strength_form": 10,
+        "pack_specific": 5,
+        "ordinary_typo": 25,
+        "typo_strength_form": 24,
+        "generic_typo": 10,
+        "difficult_typo": 5,
+        "hard_negative": 17,
+        "wrong_form": 10,
+        "similar_name_negative": 5,
+        "suffix_negative": 6,
+        "spacing_negative": 1,
+        "approved_alias": 3,
+        "prefix_negative": 4,
+        "unsupported_name": 5,
+        "nonsense": 6,
+        "close_two_names": 2,
+        "collision_qualifier": 3,
+        "exact_precedence_negative": 2
+      }
+    },
+    "origin_counts": {
+      "development": {
+        "source-derived": 20,
+        "manually-constructed": 14,
+        "typo-transformed": 55,
+        "synthetic": 55,
+        "reviewed-alias": 3
+      },
+      "held_out": {
+        "source-derived": 10,
+        "manually-constructed": 26,
+        "typo-transformed": 64,
+        "synthetic": 64,
+        "reviewed-alias": 3
+      }
+    },
+    "normalized_repeats": {
+      "development": 5,
+      "held_out": 6
+    },
+    "exact_overlap_historical_development": {
+      "development": 26,
+      "held_out": 22
+    },
+    "historical_development_exposure": "Disclosed; catalog and these source families were known in v1 development",
+    "independent_human_review": "NOT_PROVEN",
+    "real_user_distribution": "NOT_PROVEN"
+  },
+  "held_out_sha256": "9c4cc426fc5dddbb82c7865d94ae4a1347cc3729a76593cb0ce952c6307bd757",
+  "hashes": {
+    "backend/migrations/versions/0001_baseline.py": "59754b11bc87153377a49573e094a4b637fe965b35de73778530900f0e36b9fd",
+    "backend/migrations/versions/0002_p1_core.py": "97d3cdcdeb203025119d534d9c28ffe819c65e3f0b7dc448fd06029f0e364f4b",
+    "backend/migrations/versions/0003_p2_aliases.py": "5e6e5a7524c7de6e10ccb8709b3b6ea6174950adecfe2685d2da5d9ec5319616",
+    "backend/src/medifind/__init__.py": "4dfb0ebd0fc24489768795089054616942d211b3b1c158dd5ba88fa6eeb27e76",
+    "backend/src/medifind/aliases.py": "9707ce9ac2e424e9c23b7768b46993271de25afdc06a3f5bd2dcd544bdeb5940",
+    "backend/src/medifind/api.py": "a52365d48e6986c37a7fa417944e5c3ecf840050885a3de3a180acd4d7617c32",
+    "backend/src/medifind/catalog.py": "0446cae7650cb53f0bc1a3f83ec453901c07e977c030fcd7bc119a1844aff592",
+    "backend/src/medifind/config.py": "2852be2ea1cdafa27da0800dc02701dfaab5660c54f6d1b57122ff94720e9e5a",
+    "backend/src/medifind/contracts.py": "65798834e7e17d58a381eb45266ae17bbdbdce0d5f459b3b5b859f915c4410a9",
+    "backend/src/medifind/database.py": "391b7dc13862cbf6b52eb79bc8b1b51bdfe8669343629471c70b400f05446ae0",
+    "backend/src/medifind/discovery.py": "f5e92e1fc1672f9f6edc38bb20b2a1403e73a873cbc56d7c4a38acfaae4ea371",
+    "backend/src/medifind/main.py": "e0b47682ae433e800655b439176aac34b668f9ceb78098cd2c586044483646d5",
+    "backend/src/medifind/matching.py": "fd7c1ee063b018d6a41031f0566f746994017cde2666954b77e1fd4fddb3eaa8",
+    "backend/src/medifind/p2_sources.py": "aca99a815fa0af276d77068e167079713d426c3edf2704942dd656b7b78bf43e",
+    "backend/src/medifind/search_api.py": "fcb5f60f07135120050c27070b92828344436f96ffd03f1653d3c9fcd158e11c",
+    "backend/src/medifind/security.py": "5cc2b13298af568cd45f8a8b1c44c906e70513db40d9525b03b7305a561e6adb",
+    "backend/src/medifind/source_data.py": "da4fa20401d7256ba10645f5b81d53275e01b9e0be3be4318de41a80b97d661b",
+    "backend/src/medifind/tables.py": "43efde2d3d9cf60bebbe15c488448fa497e967412039aa47b4ea83f5034cfe9d",
+    "data/catalog.p2.json": "4fa374d6a42a592af8cab70a40ecb45d42160b147ef2c2d367fe382610c2eab2",
+    "data/evaluation/p2-v2/development-alternatives.json": "fc983bf70b965075fe4da2026337cb583351df03ddb6e0d5154a177100d89c91",
+    "data/evaluation/p2-v2/development.json": "09bbe9652f70859ae9149af84b65e956c23c445112348e1331e944f852879508",
+    "data/evaluation/p2-v2/implementation-final.json": "9194d496e4ba98815715d919b608f2ee4cd1b1b687ac46d672a44e6f38e891ec",
+    "data/evaluation/p2-v2/performance.json": "8cb5bd1a072ea5120558555e0b57c52540a1200afbe09bb0732e700fafa4f346",
+    "data/name-aliases.v1.json": "5f404f499ea749c4582f98b4eddbba8162cac9137711840ac913f9c9515a8b10",
+    "data/queries.v2.development.json": "47a55ef007cf4f8e2375d552d87e0133a1432af68be35ce87393b71ac6f8946c",
+    "data/queries.v2.held_out.json": "9c4cc426fc5dddbb82c7865d94ae4a1347cc3729a76593cb0ce952c6307bd757",
+    "docs/P2-V2-PROTOCOL.md": "3dc9577d214d55bd917bb1e33624b7d4177b6f9aa76daf938b302aa11292aa6f",
+    "scripts/author_p2_dev_v2.py": "0136ecfc4254c665cefa11e7778dc0263bb333d3232d59631ee9539f95c62ce6",
+    "scripts/author_p2_held_v2.py": "6ded9f19caf9925ecb9c8ddc1c7b1017903edddb9f3f3b4383ecc0a3878ac205",
+    "scripts/evaluate_p2.py": "f561ec8c5b4fdaceb916ac31f69cc6ff59ffae8d79e2b3945eb151fcfc67fc40",
+    "scripts/evaluate_p2_v2.py": "38c84b5cb9258c5f578c2bdfb5746592927f0bec0a8c2e61a2c15cd7a200050f",
+    "scripts/p2_performance.py": "b93fc436132226aedd6e00c13a04c75ec479772e7892f43fab8361b47e1c330a",
+    "scripts/research_p2_v2.py": "080957fa5e0597b8f8b5a11623044a605fb430b1d11920ddda6552de538f6989",
+    "uv.lock": "8bf122c6206405da600aa1bca22fdfd6f5a7c2f2ebb590cefc51777cfee1fd8c"
+  }
+}

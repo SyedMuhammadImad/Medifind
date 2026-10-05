@@ -1,0 +1,63 @@
+{
+  "executed_at": "2026-10-05T12:26:45.877597+00:00",
+  "scope": "synthetic_guarded_test_database_only",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "cpu": "11th Gen Intel Core i3-1115G4 @ 3.00GHz; 2 cores / 4 logical processors",
+  "visible_ram_kib": 16511608,
+  "postgresql": "17.11",
+  "catalog_presentations": 66,
+  "inventory_rows": 198,
+  "synthetic_pharmacies": 3,
+  "warmup_queries_excluded": 20,
+  "percentile_method": "Linear interpolation at (n-1)*p",
+  "query_body_logging": false,
+  "measurements": [
+    {
+      "concurrency": 1,
+      "queries": 600,
+      "elapsed_seconds": 4.436328599999797,
+      "errors": 0,
+      "p50_ms": 6.916949999776989,
+      "p95_ms": 11.034745000597464,
+      "endpoint_metrics": {
+        "/api/v1/search": {
+          "queries": 400,
+          "errors": 0,
+          "p50_ms": 8.240699999532808,
+          "p95_ms": 11.328769999136055
+        },
+        "/api/v1/search/availability": {
+          "queries": 200,
+          "errors": 0,
+          "p50_ms": 5.095999999866763,
+          "p95_ms": 7.507440000472341
+        }
+      }
+    },
+    {
+      "concurrency": 10,
+      "queries": 600,
+      "elapsed_seconds": 4.221374499999911,
+      "errors": 0,
+      "p50_ms": 61.49500000037733,
+      "p95_ms": 129.5050099999116,
+      "endpoint_metrics": {
+        "/api/v1/search": {
+          "queries": 400,
+          "errors": 0,
+          "p50_ms": 62.109049999889976,
+          "p95_ms": 137.39527500001705
+        },
+        "/api/v1/search/availability": {
+          "queries": 200,
+          "errors": 0,
+          "p50_ms": 58.991450000121404,
+          "p95_ms": 117.85448499967966
+        }
+      }
+    }
+  ],
+  "production_scale": "NOT_PROVEN",
+  "rendered_browser": "NOT_RUN"
+}

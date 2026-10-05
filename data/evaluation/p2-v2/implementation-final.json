@@ -1,0 +1,29 @@
+{
+  "finalized_at": "2026-10-05T12:30:44.154716+00:00",
+  "implementation_hashes": {
+    "backend/src/medifind/aliases.py": "9707ce9ac2e424e9c23b7768b46993271de25afdc06a3f5bd2dcd544bdeb5940",
+    "backend/src/medifind/api.py": "a52365d48e6986c37a7fa417944e5c3ecf840050885a3de3a180acd4d7617c32",
+    "backend/src/medifind/catalog.py": "0446cae7650cb53f0bc1a3f83ec453901c07e977c030fcd7bc119a1844aff592",
+    "backend/src/medifind/config.py": "2852be2ea1cdafa27da0800dc02701dfaab5660c54f6d1b57122ff94720e9e5a",
+    "backend/src/medifind/contracts.py": "65798834e7e17d58a381eb45266ae17bbdbdce0d5f459b3b5b859f915c4410a9",
+    "backend/src/medifind/database.py": "391b7dc13862cbf6b52eb79bc8b1b51bdfe8669343629471c70b400f05446ae0",
+    "backend/src/medifind/discovery.py": "f5e92e1fc1672f9f6edc38bb20b2a1403e73a873cbc56d7c4a38acfaae4ea371",
+    "backend/src/medifind/main.py": "e0b47682ae433e800655b439176aac34b668f9ceb78098cd2c586044483646d5",
+    "backend/src/medifind/matching.py": "fd7c1ee063b018d6a41031f0566f746994017cde2666954b77e1fd4fddb3eaa8",
+    "backend/src/medifind/p2_sources.py": "aca99a815fa0af276d77068e167079713d426c3edf2704942dd656b7b78bf43e",
+    "backend/src/medifind/search_api.py": "fcb5f60f07135120050c27070b92828344436f96ffd03f1653d3c9fcd158e11c",
+    "backend/src/medifind/security.py": "5cc2b13298af568cd45f8a8b1c44c906e70513db40d9525b03b7305a561e6adb",
+    "backend/src/medifind/source_data.py": "da4fa20401d7256ba10645f5b81d53275e01b9e0be3be4318de41a80b97d661b",
+    "backend/src/medifind/tables.py": "43efde2d3d9cf60bebbe15c488448fa497e967412039aa47b4ea83f5034cfe9d",
+    "backend/src/medifind/__init__.py": "4dfb0ebd0fc24489768795089054616942d211b3b1c158dd5ba88fa6eeb27e76"
+  },
+  "development_sha256": "47a55ef007cf4f8e2375d552d87e0133a1432af68be35ce87393b71ac6f8946c",
+  "regression": {
+    "passed": 219,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "seconds": 100.7
+  },
+  "held_out_at_finalization": "NOT_AUTHORED"
+}

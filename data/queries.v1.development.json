@@ -1,0 +1,2743 @@
+{
+  "version": 1,
+  "split": "development",
+  "unit": "query_decision",
+  "real_user_distribution": "NOT_PROVEN",
+  "queries": [
+    {
+      "id": "development-001",
+      "query": "Fexet",
+      "category": "ambiguous_brand",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-002",
+      "query": "Fexofenadine hydrochloride",
+      "category": "ambiguous_generic",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-003",
+      "query": "FEXET",
+      "category": "case",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-004",
+      "query": " (  Fexet  ) ",
+      "category": "spacing_punctuation",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-005",
+      "query": "Fexett",
+      "category": "mild_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-006",
+      "query": "Fexte",
+      "category": "strong_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-007",
+      "query": "fexofenadnie hydrochloride",
+      "category": "generic_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-008",
+      "query": "Fexet 60 mg",
+      "category": "strength_specific",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-009",
+      "query": "Fexet film-coated tablet",
+      "category": "dosage_form_specific",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-010",
+      "query": "Fexet 9999 mg",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-011",
+      "query": "Fexet injection",
+      "category": "wrong_form",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-012",
+      "query": "Fexet XR",
+      "category": "release_negative",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-013",
+      "query": "Fexet 60 milligrams",
+      "category": "natural_language",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-014",
+      "query": "60 mg Fexet",
+      "category": "reordered_strength",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-015",
+      "query": "Fexet 60 mg film-coated tablet",
+      "category": "strength_form",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-016",
+      "query": "Fexet 60 mg film-coated tablet pack of 10 tablet",
+      "category": "pack_specific",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-017",
+      "query": "Mebever MR",
+      "category": "exact_brand",
+      "family": "Mebever MR",
+      "origin": "source-derived",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-018",
+      "query": "Mebeverine hydrochloride",
+      "category": "exact_generic",
+      "family": "Mebever MR",
+      "origin": "source-derived",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-019",
+      "query": "MEBEVER MR",
+      "category": "case",
+      "family": "Mebever MR",
+      "origin": "manually-constructed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-020",
+      "query": " (  Mebever MR  ) ",
+      "category": "spacing_punctuation",
+      "family": "Mebever MR",
+      "origin": "manually-constructed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-021",
+      "query": "Mebeverr MR",
+      "category": "mild_typo",
+      "family": "Mebever MR",
+      "origin": "typo-transformed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-022",
+      "query": "Mebevr MR",
+      "category": "strong_typo",
+      "family": "Mebever MR",
+      "origin": "typo-transformed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-023",
+      "query": "mebeverine hydrocloride",
+      "category": "generic_typo",
+      "family": "Mebever MR",
+      "origin": "typo-transformed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-024",
+      "query": "Mebever MR 200 mg",
+      "category": "strength_specific",
+      "family": "Mebever MR",
+      "origin": "source-derived",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-025",
+      "query": "Mebever MR capsule",
+      "category": "dosage_form_specific",
+      "family": "Mebever MR",
+      "origin": "source-derived",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-026",
+      "query": "Mebever MR 9999 mg",
+      "category": "hard_negative",
+      "family": "Mebever MR",
+      "origin": "synthetic",
+      "source": "mebever.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-027",
+      "query": "Mebever MR injection",
+      "category": "wrong_form",
+      "family": "Mebever MR",
+      "origin": "synthetic",
+      "source": "mebever.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-028",
+      "query": "Mebever MR XR",
+      "category": "release_negative",
+      "family": "Mebever MR",
+      "origin": "synthetic",
+      "source": "mebever.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-029",
+      "query": "Mebever MR 200 milligrams",
+      "category": "natural_language",
+      "family": "Mebever MR",
+      "origin": "manually-constructed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-030",
+      "query": "200 mg Mebever MR",
+      "category": "reordered_strength",
+      "family": "Mebever MR",
+      "origin": "manually-constructed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-031",
+      "query": "Mebever MR 200 mg capsule",
+      "category": "strength_form",
+      "family": "Mebever MR",
+      "origin": "source-derived",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-032",
+      "query": "Mebever MR 200 mg capsule pack of 10 capsule",
+      "category": "pack_specific",
+      "family": "Mebever MR",
+      "origin": "manually-constructed",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-033",
+      "query": "Lilac",
+      "category": "exact_brand",
+      "family": "Lilac",
+      "origin": "source-derived",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-034",
+      "query": "Lactulose",
+      "category": "exact_generic",
+      "family": "Lilac",
+      "origin": "source-derived",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-035",
+      "query": "LILAC",
+      "category": "case",
+      "family": "Lilac",
+      "origin": "manually-constructed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-036",
+      "query": " (  Lilac  ) ",
+      "category": "spacing_punctuation",
+      "family": "Lilac",
+      "origin": "manually-constructed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-037",
+      "query": "Lillac",
+      "category": "mild_typo",
+      "family": "Lilac",
+      "origin": "typo-transformed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-038",
+      "query": "Lylak",
+      "category": "strong_typo",
+      "family": "Lilac",
+      "origin": "typo-transformed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-039",
+      "query": "lactulsoe",
+      "category": "generic_typo",
+      "family": "Lilac",
+      "origin": "typo-transformed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-040",
+      "query": "Lilac 3.35 g",
+      "category": "strength_specific",
+      "family": "Lilac",
+      "origin": "source-derived",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-041",
+      "query": "Lilac syrup",
+      "category": "dosage_form_specific",
+      "family": "Lilac",
+      "origin": "source-derived",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-042",
+      "query": "Lilac 9999 mg",
+      "category": "hard_negative",
+      "family": "Lilac",
+      "origin": "synthetic",
+      "source": "lilac.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-043",
+      "query": "Lilac injection",
+      "category": "wrong_form",
+      "family": "Lilac",
+      "origin": "synthetic",
+      "source": "lilac.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-044",
+      "query": "Lilac XR",
+      "category": "release_negative",
+      "family": "Lilac",
+      "origin": "synthetic",
+      "source": "lilac.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-045",
+      "query": "Lilac 3.35 grams",
+      "category": "natural_language",
+      "family": "Lilac",
+      "origin": "manually-constructed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-046",
+      "query": "3.35 g Lilac",
+      "category": "reordered_strength",
+      "family": "Lilac",
+      "origin": "manually-constructed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-047",
+      "query": "Lilac 3.35 g/5 mL syrup",
+      "category": "strength_form",
+      "family": "Lilac",
+      "origin": "source-derived",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-048",
+      "query": "Lilac 3.35 g/5 mL syrup pack of 120 mL",
+      "category": "pack_specific",
+      "family": "Lilac",
+      "origin": "manually-constructed",
+      "source": "lilac.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-049",
+      "query": "Salbo HFA",
+      "category": "exact_brand",
+      "family": "Salbo HFA",
+      "origin": "source-derived",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-050",
+      "query": "Salbutamol",
+      "category": "exact_generic",
+      "family": "Salbo HFA",
+      "origin": "source-derived",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-051",
+      "query": "SALBO HFA",
+      "category": "case",
+      "family": "Salbo HFA",
+      "origin": "manually-constructed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-052",
+      "query": " (  Salbo HFA  ) ",
+      "category": "spacing_punctuation",
+      "family": "Salbo HFA",
+      "origin": "manually-constructed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-053",
+      "query": "Salboo HFA",
+      "category": "mild_typo",
+      "family": "Salbo HFA",
+      "origin": "typo-transformed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-054",
+      "query": "Slabo HFA",
+      "category": "strong_typo",
+      "family": "Salbo HFA",
+      "origin": "typo-transformed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-055",
+      "query": "salbutaml",
+      "category": "generic_typo",
+      "family": "Salbo HFA",
+      "origin": "typo-transformed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-056",
+      "query": "Salbo HFA 100 mcg",
+      "category": "strength_specific",
+      "family": "Salbo HFA",
+      "origin": "source-derived",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-057",
+      "query": "Salbo HFA metered-dose inhaler",
+      "category": "dosage_form_specific",
+      "family": "Salbo HFA",
+      "origin": "source-derived",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-058",
+      "query": "Salbo HFA 9999 mg",
+      "category": "hard_negative",
+      "family": "Salbo HFA",
+      "origin": "synthetic",
+      "source": "salbo.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-059",
+      "query": "Salbo HFA injection",
+      "category": "wrong_form",
+      "family": "Salbo HFA",
+      "origin": "synthetic",
+      "source": "salbo.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-060",
+      "query": "Salbo HFA XR",
+      "category": "release_negative",
+      "family": "Salbo HFA",
+      "origin": "synthetic",
+      "source": "salbo.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-061",
+      "query": "Salbo HFA 100 micrograms",
+      "category": "natural_language",
+      "family": "Salbo HFA",
+      "origin": "manually-constructed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-062",
+      "query": "100 mcg Salbo HFA",
+      "category": "reordered_strength",
+      "family": "Salbo HFA",
+      "origin": "manually-constructed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-063",
+      "query": "Salbo HFA 100 mcg metered-dose inhaler",
+      "category": "strength_form",
+      "family": "Salbo HFA",
+      "origin": "source-derived",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-064",
+      "query": "Salbo HFA 100 mcg metered-dose inhaler pack of 200 inhalation",
+      "category": "pack_specific",
+      "family": "Salbo HFA",
+      "origin": "manually-constructed",
+      "source": "salbo.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-065",
+      "query": "Nexum",
+      "category": "ambiguous_brand",
+      "family": "Nexum",
+      "origin": "source-derived",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-066",
+      "query": "Esomeprazole",
+      "category": "ambiguous_generic",
+      "family": "Nexum",
+      "origin": "source-derived",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-067",
+      "query": "NEXUM",
+      "category": "case",
+      "family": "Nexum",
+      "origin": "manually-constructed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-068",
+      "query": " (  Nexum  ) ",
+      "category": "spacing_punctuation",
+      "family": "Nexum",
+      "origin": "manually-constructed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-069",
+      "query": "Nexumm",
+      "category": "mild_typo",
+      "family": "Nexum",
+      "origin": "typo-transformed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-070",
+      "query": "Nexm",
+      "category": "strong_typo",
+      "family": "Nexum",
+      "origin": "typo-transformed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-071",
+      "query": "esomeprazoel",
+      "category": "generic_typo",
+      "family": "Nexum",
+      "origin": "typo-transformed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-072",
+      "query": "Nexum 20 mg",
+      "category": "strength_specific",
+      "family": "Nexum",
+      "origin": "source-derived",
+      "source": "p2-nexum.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-073",
+      "query": "Nexum capsule",
+      "category": "dosage_form_specific",
+      "family": "Nexum",
+      "origin": "source-derived",
+      "source": "p2-nexum.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-074",
+      "query": "Nexum 9999 mg",
+      "category": "hard_negative",
+      "family": "Nexum",
+      "origin": "synthetic",
+      "source": "p2-nexum.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-075",
+      "query": "Nexum injection",
+      "category": "wrong_form",
+      "family": "Nexum",
+      "origin": "synthetic",
+      "source": "p2-nexum.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-076",
+      "query": "Nexum XR",
+      "category": "release_negative",
+      "family": "Nexum",
+      "origin": "synthetic",
+      "source": "p2-nexum.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-077",
+      "query": "Nexum 20 milligrams",
+      "category": "natural_language",
+      "family": "Nexum",
+      "origin": "manually-constructed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-078",
+      "query": "20 mg Nexum",
+      "category": "reordered_strength",
+      "family": "Nexum",
+      "origin": "manually-constructed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-079",
+      "query": "Nexum 20 mg capsule",
+      "category": "strength_form",
+      "family": "Nexum",
+      "origin": "source-derived",
+      "source": "p2-nexum.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-080",
+      "query": "Nexum 20 mg capsule pack of 14 capsule",
+      "category": "pack_specific",
+      "family": "Nexum",
+      "origin": "manually-constructed",
+      "source": "p2-nexum.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-081",
+      "query": "Risek",
+      "category": "ambiguous_brand",
+      "family": "Risek",
+      "origin": "source-derived",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-082",
+      "query": "Omeprazole",
+      "category": "ambiguous_generic",
+      "family": "Risek",
+      "origin": "source-derived",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-083",
+      "query": "RISEK",
+      "category": "case",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-084",
+      "query": " (  Risek  ) ",
+      "category": "spacing_punctuation",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-085",
+      "query": "Rissek",
+      "category": "mild_typo",
+      "family": "Risek",
+      "origin": "typo-transformed",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-086",
+      "query": "Risck",
+      "category": "strong_typo",
+      "family": "Risek",
+      "origin": "typo-transformed",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-087",
+      "query": "omeprazol",
+      "category": "generic_typo",
+      "family": "Risek",
+      "origin": "typo-transformed",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-088",
+      "query": "Risek 20 mg",
+      "category": "strength_specific",
+      "family": "Risek",
+      "origin": "source-derived",
+      "source": "p2-risek.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-089",
+      "query": "Risek capsule",
+      "category": "dosage_form_specific",
+      "family": "Risek",
+      "origin": "source-derived",
+      "source": "p2-risek.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-090",
+      "query": "Risek 9999 mg",
+      "category": "hard_negative",
+      "family": "Risek",
+      "origin": "synthetic",
+      "source": "p2-risek.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-091",
+      "query": "Risek injection",
+      "category": "wrong_form",
+      "family": "Risek",
+      "origin": "synthetic",
+      "source": "p2-risek.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-092",
+      "query": "Risek XR",
+      "category": "release_negative",
+      "family": "Risek",
+      "origin": "synthetic",
+      "source": "p2-risek.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-093",
+      "query": "Risek 20 milligrams",
+      "category": "natural_language",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-094",
+      "query": "20 mg Risek",
+      "category": "reordered_strength",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-095",
+      "query": "Risek 20 mg capsule",
+      "category": "strength_form",
+      "family": "Risek",
+      "origin": "source-derived",
+      "source": "p2-risek.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-096",
+      "query": "Risek 20 mg capsule pack of 14 capsule",
+      "category": "pack_specific",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-097",
+      "query": "Montiget",
+      "category": "ambiguous_brand",
+      "family": "Montiget",
+      "origin": "source-derived",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-098",
+      "query": "Montelukast",
+      "category": "ambiguous_generic",
+      "family": "Montiget",
+      "origin": "source-derived",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-099",
+      "query": "MONTIGET",
+      "category": "case",
+      "family": "Montiget",
+      "origin": "manually-constructed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-100",
+      "query": " (  Montiget  ) ",
+      "category": "spacing_punctuation",
+      "family": "Montiget",
+      "origin": "manually-constructed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-101",
+      "query": "Montigett",
+      "category": "mild_typo",
+      "family": "Montiget",
+      "origin": "typo-transformed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-102",
+      "query": "Mnotiget",
+      "category": "strong_typo",
+      "family": "Montiget",
+      "origin": "typo-transformed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-103",
+      "query": "montelukst",
+      "category": "generic_typo",
+      "family": "Montiget",
+      "origin": "typo-transformed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-104",
+      "query": "Montiget 4 mg",
+      "category": "strength_specific",
+      "family": "Montiget",
+      "origin": "source-derived",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-105",
+      "query": "Montiget granules",
+      "category": "dosage_form_specific",
+      "family": "Montiget",
+      "origin": "source-derived",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-106",
+      "query": "Montiget 9999 mg",
+      "category": "hard_negative",
+      "family": "Montiget",
+      "origin": "synthetic",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-107",
+      "query": "Montiget injection",
+      "category": "wrong_form",
+      "family": "Montiget",
+      "origin": "synthetic",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-108",
+      "query": "Montiget XR",
+      "category": "release_negative",
+      "family": "Montiget",
+      "origin": "synthetic",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-109",
+      "query": "Montiget 4 milligrams",
+      "category": "natural_language",
+      "family": "Montiget",
+      "origin": "manually-constructed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-110",
+      "query": "4 mg Montiget",
+      "category": "reordered_strength",
+      "family": "Montiget",
+      "origin": "manually-constructed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-111",
+      "query": "Montiget 4 mg granules",
+      "category": "strength_form",
+      "family": "Montiget",
+      "origin": "source-derived",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-112",
+      "query": "Montiget 4 mg granules pack of 14 sachet",
+      "category": "pack_specific",
+      "family": "Montiget",
+      "origin": "manually-constructed",
+      "source": "p2-montiget-2.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-113",
+      "query": "Tasmi",
+      "category": "ambiguous_brand",
+      "family": "Tasmi",
+      "origin": "source-derived",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-114",
+      "query": "Telmisartan",
+      "category": "ambiguous_generic",
+      "family": "Tasmi",
+      "origin": "source-derived",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-115",
+      "query": "TASMI",
+      "category": "case",
+      "family": "Tasmi",
+      "origin": "manually-constructed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-116",
+      "query": " (  Tasmi  ) ",
+      "category": "spacing_punctuation",
+      "family": "Tasmi",
+      "origin": "manually-constructed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-117",
+      "query": "Tasmii",
+      "category": "mild_typo",
+      "family": "Tasmi",
+      "origin": "typo-transformed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-118",
+      "query": "Tamsi",
+      "category": "strong_typo",
+      "family": "Tasmi",
+      "origin": "typo-transformed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-119",
+      "query": "telmisartn",
+      "category": "generic_typo",
+      "family": "Tasmi",
+      "origin": "typo-transformed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-120",
+      "query": "Tasmi 20 mg",
+      "category": "strength_specific",
+      "family": "Tasmi",
+      "origin": "source-derived",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-121",
+      "query": "Tasmi tablet",
+      "category": "dosage_form_specific",
+      "family": "Tasmi",
+      "origin": "source-derived",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-122",
+      "query": "Tasmi 9999 mg",
+      "category": "hard_negative",
+      "family": "Tasmi",
+      "origin": "synthetic",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-123",
+      "query": "Tasmi injection",
+      "category": "wrong_form",
+      "family": "Tasmi",
+      "origin": "synthetic",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-124",
+      "query": "Tasmi XR",
+      "category": "release_negative",
+      "family": "Tasmi",
+      "origin": "synthetic",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-125",
+      "query": "Tasmi 20 milligrams",
+      "category": "natural_language",
+      "family": "Tasmi",
+      "origin": "manually-constructed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-126",
+      "query": "20 mg Tasmi",
+      "category": "reordered_strength",
+      "family": "Tasmi",
+      "origin": "manually-constructed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-127",
+      "query": "Tasmi 20 mg tablet",
+      "category": "strength_form",
+      "family": "Tasmi",
+      "origin": "source-derived",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-128",
+      "query": "Tasmi 20 mg tablet pack of 14 tablet",
+      "category": "pack_specific",
+      "family": "Tasmi",
+      "origin": "manually-constructed",
+      "source": "p2-tasmi-4.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-129",
+      "query": "Cipesta",
+      "category": "ambiguous_brand",
+      "family": "Cipesta",
+      "origin": "source-derived",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-130",
+      "query": "Ciprofloxacin",
+      "category": "ambiguous_generic",
+      "family": "Cipesta",
+      "origin": "source-derived",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-131",
+      "query": "CIPESTA",
+      "category": "case",
+      "family": "Cipesta",
+      "origin": "manually-constructed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-132",
+      "query": " (  Cipesta  ) ",
+      "category": "spacing_punctuation",
+      "family": "Cipesta",
+      "origin": "manually-constructed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-133",
+      "query": "Cipestaa",
+      "category": "mild_typo",
+      "family": "Cipesta",
+      "origin": "typo-transformed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-134",
+      "query": "Cipetsa",
+      "category": "strong_typo",
+      "family": "Cipesta",
+      "origin": "typo-transformed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-135",
+      "query": "ciprofloxacn",
+      "category": "generic_typo",
+      "family": "Cipesta",
+      "origin": "typo-transformed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-136",
+      "query": "Cipesta 250 mg",
+      "category": "strength_specific",
+      "family": "Cipesta",
+      "origin": "source-derived",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-137",
+      "query": "Cipesta film-coated tablet",
+      "category": "dosage_form_specific",
+      "family": "Cipesta",
+      "origin": "source-derived",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-138",
+      "query": "Cipesta 9999 mg",
+      "category": "hard_negative",
+      "family": "Cipesta",
+      "origin": "synthetic",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-139",
+      "query": "Cipesta injection",
+      "category": "wrong_form",
+      "family": "Cipesta",
+      "origin": "synthetic",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-140",
+      "query": "Cipesta XR",
+      "category": "release_negative",
+      "family": "Cipesta",
+      "origin": "synthetic",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-141",
+      "query": "Cipesta 250 milligrams",
+      "category": "natural_language",
+      "family": "Cipesta",
+      "origin": "manually-constructed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-142",
+      "query": "250 mg Cipesta",
+      "category": "reordered_strength",
+      "family": "Cipesta",
+      "origin": "manually-constructed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-143",
+      "query": "Cipesta 250 mg film-coated tablet",
+      "category": "strength_form",
+      "family": "Cipesta",
+      "origin": "source-derived",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-144",
+      "query": "Cipesta 250 mg film-coated tablet pack of 10 tablet",
+      "category": "pack_specific",
+      "family": "Cipesta",
+      "origin": "manually-constructed",
+      "source": "p2-cipesta.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-145",
+      "query": "Fexet-D",
+      "category": "exact_brand",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-146",
+      "query": "Pseudoephedrine hydrochloride",
+      "category": "exact_generic",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-147",
+      "query": "FEXET-D",
+      "category": "case",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-148",
+      "query": " (  Fexet - D  ) ",
+      "category": "spacing_punctuation",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-149",
+      "query": "Fexett-D",
+      "category": "mild_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-150",
+      "query": "Fexte-D",
+      "category": "strong_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-151",
+      "query": "pseudoephedrine hydrocloride",
+      "category": "generic_typo",
+      "family": "Fexet",
+      "origin": "typo-transformed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-152",
+      "query": "Fexet-D 60 mg",
+      "category": "strength_specific",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-153",
+      "query": "Fexet-D film-coated tablet",
+      "category": "dosage_form_specific",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-154",
+      "query": "Fexet-D 9999 mg",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-155",
+      "query": "Fexet-D injection",
+      "category": "wrong_form",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-156",
+      "query": "Fexet-D XR",
+      "category": "release_negative",
+      "family": "Fexet",
+      "origin": "synthetic",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-157",
+      "query": "Fexet-D 60 milligrams",
+      "category": "natural_language",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-158",
+      "query": "60 mg Fexet-D",
+      "category": "reordered_strength",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-159",
+      "query": "Fexet-D 60 mg + 120 mg film-coated tablet",
+      "category": "strength_form",
+      "family": "Fexet",
+      "origin": "source-derived",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-160",
+      "query": "Fexet-D 60 mg + 120 mg film-coated tablet pack of 10 tablet",
+      "category": "pack_specific",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "p2-fexet-d.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-161",
+      "query": "Gabica",
+      "category": "ambiguous_brand",
+      "family": "Gabica",
+      "origin": "source-derived",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-162",
+      "query": "Pregabalin",
+      "category": "ambiguous_generic",
+      "family": "Gabica",
+      "origin": "source-derived",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-163",
+      "query": "GABICA",
+      "category": "case",
+      "family": "Gabica",
+      "origin": "manually-constructed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-164",
+      "query": " (  Gabica  ) ",
+      "category": "spacing_punctuation",
+      "family": "Gabica",
+      "origin": "manually-constructed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-165",
+      "query": "Gabikaa",
+      "category": "mild_typo",
+      "family": "Gabica",
+      "origin": "typo-transformed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-166",
+      "query": "Gabcia",
+      "category": "strong_typo",
+      "family": "Gabica",
+      "origin": "typo-transformed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-167",
+      "query": "pregablin",
+      "category": "generic_typo",
+      "family": "Gabica",
+      "origin": "typo-transformed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-168",
+      "query": "Gabica 50 mg",
+      "category": "strength_specific",
+      "family": "Gabica",
+      "origin": "source-derived",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-169",
+      "query": "Gabica capsule",
+      "category": "dosage_form_specific",
+      "family": "Gabica",
+      "origin": "source-derived",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-170",
+      "query": "Gabica 9999 mg",
+      "category": "hard_negative",
+      "family": "Gabica",
+      "origin": "synthetic",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-171",
+      "query": "Gabica injection",
+      "category": "wrong_form",
+      "family": "Gabica",
+      "origin": "synthetic",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-172",
+      "query": "Gabica XR",
+      "category": "release_negative",
+      "family": "Gabica",
+      "origin": "synthetic",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-173",
+      "query": "Gabica 50 milligrams",
+      "category": "natural_language",
+      "family": "Gabica",
+      "origin": "manually-constructed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-174",
+      "query": "50 mg Gabica",
+      "category": "reordered_strength",
+      "family": "Gabica",
+      "origin": "manually-constructed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-175",
+      "query": "Gabica 50 mg capsule",
+      "category": "strength_form",
+      "family": "Gabica",
+      "origin": "source-derived",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-176",
+      "query": "Gabica 50 mg capsule pack of 14 capsule",
+      "category": "pack_specific",
+      "family": "Gabica",
+      "origin": "manually-constructed",
+      "source": "p2-gabica-8.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-177",
+      "query": "Fexofenadine HCl",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "origin": "reviewed-alias",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-178",
+      "query": "FEXOFENADINE HCL",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "origin": "reviewed-alias",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-179",
+      "query": "(Fexofenadine HCl)",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "origin": "reviewed-alias",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-180",
+      "query": "Mebeverine HCl",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "origin": "reviewed-alias",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-181",
+      "query": "MEBEVERINE HCL",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "origin": "reviewed-alias",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-182",
+      "query": "(Mebeverine HCl)",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "origin": "reviewed-alias",
+      "source": "mebever.pdf",
+      "expected_state": "UNIQUE_MATCH",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-183",
+      "query": "Advant",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Advant",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-184",
+      "query": "Advant 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Advant",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-185",
+      "query": "Advantec",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Advantec",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-186",
+      "query": "Advantec 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Advantec",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-187",
+      "query": "Dafo",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Dafo",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-188",
+      "query": "Dafo 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Dafo",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-189",
+      "query": "Apixaget",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Apixaget",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-190",
+      "query": "Apixaget 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Apixaget",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-191",
+      "query": "Nebil",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Nebil",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-192",
+      "query": "Nebil 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Nebil",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-193",
+      "query": "Nervon",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Nervon",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-194",
+      "query": "Nervon 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Nervon",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-195",
+      "query": "Starcox",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Starcox",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-196",
+      "query": "Starcox 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Starcox",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-197",
+      "query": "Vonozan",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Vonozan",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-198",
+      "query": "Vonozan 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Vonozan",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-199",
+      "query": "Savesto",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Savesto",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-200",
+      "query": "Savesto 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Savesto",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-201",
+      "query": "Solifen",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Solifen",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-202",
+      "query": "Solifen 10 mg",
+      "category": "unsupported_medicine",
+      "family": "unsupported:Solifen",
+      "origin": "source-derived",
+      "source": "Retained Pakistan directory; absence from accepted catalog, not absence from market",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-211",
+      "query": "Risek IV",
+      "category": "similar_name_negative",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-212",
+      "query": "Risek Insta",
+      "category": "similar_name_negative",
+      "family": "Risek",
+      "origin": "manually-constructed",
+      "source": "p2-risek.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-213",
+      "query": "Fexet 500 mg",
+      "category": "similar_name_negative",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    },
+    {
+      "id": "development-214",
+      "query": "Fexet suspension",
+      "category": "similar_name_negative",
+      "family": "Fexet",
+      "origin": "manually-constructed",
+      "source": "fexet-pakistan.pdf",
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "expected_ids": [],
+      "label_review": "codex_source_based_nonclinical_labels_not_independent_review"
+    }
+  ]
+}

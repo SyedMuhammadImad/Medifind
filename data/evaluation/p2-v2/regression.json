@@ -1,0 +1,32 @@
+{
+  "passed": 219,
+  "failed": 0,
+  "skipped": 0,
+  "warnings": 1,
+  "seconds": 100.7,
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check.ps1",
+  "verified_on": "2026-10-05",
+  "actual_postgresql": 108,
+  "non_postgresql": 111,
+  "case_counts_by_file": {
+    "backend/tests/test_catalog.py": 15,
+    "backend/tests/test_foundation.py": 20,
+    "backend/tests/test_p1_api.py": 65,
+    "backend/tests/test_p1_hardening.py": 8,
+    "backend/tests/test_p2_correction.py": 27,
+    "backend/tests/test_p2_evaluation.py": 4,
+    "backend/tests/test_p2_integration.py": 32,
+    "backend/tests/test_p2_matching.py": 34,
+    "backend/tests/test_p2_v2_evaluation.py": 8,
+    "backend/tests/test_sources.py": 6
+  },
+  "lint": "PASS",
+  "format": "PASS: 48 files on final tooling check",
+  "original_sources": "PASS: 5 records, 13 artifacts",
+  "expanded_sources": "PASS: 66 records, 45 artifacts, 3 aliases",
+  "frontend": "PASS: TypeScript and Vite production build",
+  "baseline": "PASS: 184 tests, 95.85 seconds before matcher correction",
+  "warning": "Existing unsuppressed Starlette/httpx TestClient deprecation",
+  "rendered_business_browser": "NOT_RUN",
+  "collection_classification": "Collection only; execution counts from full check, not an extra test run"
+}

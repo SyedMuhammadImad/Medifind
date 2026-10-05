@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "id": "7b7f8d1c-588e-5ea4-95b5-6bfce58479e7",
+      "alias": "Fexofenadine HCl",
+      "normalized_name": "fexofenadine hcl",
+      "alias_type": "ingredient_abbreviation",
+      "language": "en",
+      "source_sha256": "3dabd40839472c8850d8e644824add29416fb51ff00ea57f9f6d1958b433cb1c",
+      "review_status": "approved_source_spelling_not_clinical",
+      "reviewed_at": "2026-10-02T10:45:11.881368+00:00",
+      "product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "provenance": {
+        "source_owner": "Getz Pharma",
+        "url": "https://getzpharma.com/wp-content/uploads/2016/07/Fexet-insert-folded.pdf",
+        "artifact_file": "fexet-pakistan.pdf",
+        "source_literal": "Fexofenadine HCl",
+        "canonical_ingredient": "Fexofenadine hydrochloride",
+        "review": "Codex manually checked printed HCl/hydrochloride spelling of the same sourced ingredient; not pharmacist review or clinical equivalence",
+        "scope": "ingredient-name retrieval; combination products remain explicit presentation choices"
+      }
+    },
+    {
+      "id": "abd0bfc9-e320-5301-b8b0-039d669fe23c",
+      "alias": "Mebeverine HCl",
+      "normalized_name": "mebeverine hcl",
+      "alias_type": "ingredient_abbreviation",
+      "language": "en",
+      "source_sha256": "f19c893f5faa88c4935bea5af53846152ce4bf6a2a3e6757d2953ce20c883096",
+      "review_status": "approved_source_spelling_not_clinical",
+      "reviewed_at": "2026-10-02T10:45:11.881368+00:00",
+      "product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "provenance": {
+        "source_owner": "Getz Pharma",
+        "url": "https://getzpharma.com/wp-content/uploads/2016/07/Mebever-MR-Caps-Leaflet-Pakistan.pdf",
+        "artifact_file": "mebever.pdf",
+        "source_literal": "Mebeverine HCl",
+        "canonical_ingredient": "Mebeverine hydrochloride",
+        "review": "Codex manually checked printed HCl/hydrochloride spelling of the same sourced ingredient; not pharmacist review or clinical equivalence",
+        "scope": "ingredient-name retrieval; combination products remain explicit presentation choices"
+      }
+    },
+    {
+      "id": "786a6424-4512-58d0-9ba1-749d08485ca9",
+      "alias": "Metformin HCl",
+      "normalized_name": "metformin hcl",
+      "alias_type": "ingredient_abbreviation",
+      "language": "en",
+      "source_sha256": "1c3c4ce04f31d4649d4a92c1a1b523efd779c6d2df2be85fd57e9835f4f33389",
+      "review_status": "approved_source_spelling_not_clinical",
+      "reviewed_at": "2026-10-02T10:45:11.881368+00:00",
+      "product_ids": [
+        "412ce13e-ef58-5dab-a44a-6b66b597a029",
+        "76d1eff3-cc55-50e8-94e8-c8b84dcc7911"
+      ],
+      "provenance": {
+        "source_owner": "Getz Pharma",
+        "url": "https://getzpharma.com/wp-content/uploads/2016/07/Getformin-Tab-Leaflet-Pakistan.pdf",
+        "artifact_file": "p2-getformin-2.pdf",
+        "source_literal": "Metformin HCl",
+        "canonical_ingredient": "Metformin hydrochloride",
+        "review": "Codex manually checked printed HCl/hydrochloride spelling of the same sourced ingredient; not pharmacist review or clinical equivalence",
+        "scope": "ingredient-name retrieval; combination products remain explicit presentation choices"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "held_out_sha256": "6f76738429e00f23eaddeb21a378303f4ca7ffbe4d96be243049b2e37d0be9c3",
+  "freeze_stage": "After source/catalog audit, before matcher implementation/tuning/acceptance",
+  "authorship": "Codex manual source-based, not independent labels"
+}

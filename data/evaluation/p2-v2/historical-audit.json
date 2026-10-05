@@ -1,0 +1,1296 @@
+{
+  "historical_milestone": "02909d644856d8df6d18d60cf6f5f7b012ddd4ee",
+  "historical_status": "HISTORICAL_HELD_OUT_V1_EXPOSED_NOT_FOR_TUNING",
+  "confusion_matrix": {
+    "UNIQUE_MATCH": {
+      "UNIQUE_MATCH": 50,
+      "AMBIGUOUS_MATCH": 0,
+      "NO_CONFIDENT_MATCH": 0
+    },
+    "AMBIGUOUS_MATCH": {
+      "UNIQUE_MATCH": 0,
+      "AMBIGUOUS_MATCH": 80,
+      "NO_CONFIDENT_MATCH": 13
+    },
+    "NO_CONFIDENT_MATCH": {
+      "UNIQUE_MATCH": 0,
+      "AMBIGUOUS_MATCH": 0,
+      "NO_CONFIDENT_MATCH": 68
+    }
+  },
+  "ambiguity": {
+    "numerator": 80,
+    "denominator": 93,
+    "accuracy": 0.8602150537634409,
+    "definition": "Exact state AND candidate-set accuracy on expected-ambiguous queries",
+    "state_only_accuracy": 0.8602150537634409,
+    "interpretation": "End-to-end ambiguous-query recovery, not conditional tie handling"
+  },
+  "metric_or_report_bug": false,
+  "root_cause_counts": {
+    "short_name_similarity_floor": 7,
+    "levenshtein_transposition_cost_and_threshold": 3,
+    "candidate_generation_exact_nonleading_token": 1,
+    "candidate_generation_minimum_length": 2
+  },
+  "reproduced_failures": [
+    {
+      "query_id": "held_out-005",
+      "query": "Covamm",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "53b8004b-57ce-5c37-adc9-d16dbfcccb4d",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "5",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "82aa2487-5d40-576a-85d8-215a269dc7df",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "5",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "b28c5e67-145a-5a4d-863d-abdd1acd59ea",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "10",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "covam",
+      "name_similarity": 0.8333333333333334,
+      "edit_distance": 1,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Cova",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-006",
+      "query": "Covem",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "53b8004b-57ce-5c37-adc9-d16dbfcccb4d",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "5",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "82aa2487-5d40-576a-85d8-215a269dc7df",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "5",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "b28c5e67-145a-5a4d-863d-abdd1acd59ea",
+          "brand_name": "Covam",
+          "ingredients": [
+            {
+              "name": "Amlodipine",
+              "salt_basis": "as amlodipine besylate",
+              "strength": {
+                "amount": "10",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "covam",
+      "name_similarity": 0.8,
+      "edit_distance": 1,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Cova",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-021",
+      "query": "Getryll",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "2bdca557-00da-5218-b1a1-b6b6bab26767",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "1",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "63e7b31d-3a67-5c27-abce-1a2af9973e2a",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "3",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "6a673efe-5cd3-583b-abab-b4e40aa82ceb",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "2",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "9d4f5b37-e166-5ab6-b461-863f24945b4e",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "4",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "getryl",
+      "name_similarity": 0.8571428571428572,
+      "edit_distance": 1,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Getformin",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-022",
+      "query": "Getrly",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "2bdca557-00da-5218-b1a1-b6b6bab26767",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "1",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "63e7b31d-3a67-5c27-abce-1a2af9973e2a",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "3",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "6a673efe-5cd3-583b-abab-b4e40aa82ceb",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "2",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "9d4f5b37-e166-5ab6-b461-863f24945b4e",
+          "brand_name": "Getryl",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "4",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "20",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "getryl",
+      "name_similarity": 0.6666666666666667,
+      "edit_distance": 2,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Getformin",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-038",
+      "query": "Rovitsa",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "18c9491c-2f50-5ef8-ae67-7b9e6724a54c",
+          "brand_name": "Rovista",
+          "ingredients": [
+            {
+              "name": "Rosuvastatin",
+              "salt_basis": "as calcium salt",
+              "strength": {
+                "amount": "10",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "66252de9-fa6f-5f1d-939e-c82833059943",
+          "brand_name": "Rovista",
+          "ingredients": [
+            {
+              "name": "Rosuvastatin",
+              "salt_basis": "as calcium salt",
+              "strength": {
+                "amount": "20",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "88ede133-9dd8-582e-93a1-d5efde999bea",
+          "brand_name": "Rovista",
+          "ingredients": [
+            {
+              "name": "Rosuvastatin",
+              "salt_basis": "as calcium salt",
+              "strength": {
+                "amount": "5",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "rovista",
+      "name_similarity": 0.7142857142857143,
+      "edit_distance": 2,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.8,
+      "ambiguity_margin": 0.08,
+      "product_family": "Rovista",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "levenshtein_transposition_cost_and_threshold",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-054",
+      "query": "Lpiget",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "020a7fcc-51d8-577c-89b3-1c6d9ccd702f",
+          "brand_name": "Lipiget",
+          "ingredients": [
+            {
+              "name": "Atorvastatin",
+              "salt_basis": "as calcium trihydrate salt",
+              "strength": {
+                "amount": "20",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "4358bdea-1a0e-5446-9c16-93837a817775",
+          "brand_name": "Lipiget",
+          "ingredients": [
+            {
+              "name": "Atorvastatin",
+              "salt_basis": "as calcium trihydrate salt",
+              "strength": {
+                "amount": "10",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "aec6f422-ad38-5bd2-9da4-8ed0edf98c41",
+          "brand_name": "Lipiget",
+          "ingredients": [
+            {
+              "name": "Atorvastatin",
+              "salt_basis": "as calcium trihydrate salt",
+              "strength": {
+                "amount": "40",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "lipiget",
+      "name_similarity": 0.8571428571428572,
+      "edit_distance": 1,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Lipiget",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-085",
+      "query": "Getfromin",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "412ce13e-ef58-5dab-a44a-6b66b597a029",
+          "brand_name": "Getformin",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "2",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Metformin hydrochloride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "30",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "76d1eff3-cc55-50e8-94e8-c8b84dcc7911",
+          "brand_name": "Getformin",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "1",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Metformin hydrochloride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "30",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "getformin",
+      "name_similarity": 0.7777777777777778,
+      "edit_distance": 2,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.8,
+      "ambiguity_margin": 0.08,
+      "product_family": "Getformin",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "levenshtein_transposition_cost_and_threshold",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-086",
+      "query": "metformin hydrocloride",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "412ce13e-ef58-5dab-a44a-6b66b597a029",
+          "brand_name": "Getformin",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "2",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Metformin hydrochloride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "30",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "76d1eff3-cc55-50e8-94e8-c8b84dcc7911",
+          "brand_name": "Getformin",
+          "ingredients": [
+            {
+              "name": "Glimepiride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "1",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            },
+            {
+              "name": "Metformin hydrochloride",
+              "salt_basis": null,
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "30",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "metformin hydrochloride",
+      "name_similarity": 0.9565217391304348,
+      "edit_distance": 1,
+      "candidate_generation_eligible": false,
+      "similarity_threshold": 0.8,
+      "ambiguity_margin": 0.08,
+      "product_family": "Getformin",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "candidate_generation_exact_nonleading_token",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-100",
+      "query": "Zetroo",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "0f2b12fa-de67-5db6-a810-df3f4d16d66e",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "200",
+                "unit": "mg",
+                "per_amount": "5",
+                "per_unit": "mL"
+              }
+            }
+          ],
+          "dosage_form": "suspension",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "15",
+          "pack_unit": "mL"
+        },
+        {
+          "product_id": "8f1940ea-50fb-5191-b57a-3e40f3e2dae4",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "250",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "capsule"
+              }
+            }
+          ],
+          "dosage_form": "capsule",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "capsule"
+        },
+        {
+          "product_id": "c6feaffd-77f7-5649-8a36-a57eb4c7c56d",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "3",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "zetro",
+      "name_similarity": 0.8333333333333334,
+      "edit_distance": 1,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Zetro",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-101",
+      "query": "Ztero",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "0f2b12fa-de67-5db6-a810-df3f4d16d66e",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "200",
+                "unit": "mg",
+                "per_amount": "5",
+                "per_unit": "mL"
+              }
+            }
+          ],
+          "dosage_form": "suspension",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "15",
+          "pack_unit": "mL"
+        },
+        {
+          "product_id": "8f1940ea-50fb-5191-b57a-3e40f3e2dae4",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "250",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "capsule"
+              }
+            }
+          ],
+          "dosage_form": "capsule",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "capsule"
+        },
+        {
+          "product_id": "c6feaffd-77f7-5649-8a36-a57eb4c7c56d",
+          "brand_name": "Zetro",
+          "ingredients": [
+            {
+              "name": "Azithromycin",
+              "salt_basis": "as dihydrate",
+              "strength": {
+                "amount": "500",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "3",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "zetro",
+      "name_similarity": 0.6,
+      "edit_distance": 2,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Zetro",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "short_name_similarity_floor",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-116",
+      "query": "Covaa",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "160655a5-9d44-5f10-b686-c504fff772ea",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "28",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "82100d36-3eef-5bf7-836f-8cb43c68bc1f",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "ea6f3ea2-1e0d-5730-b709-f5a55f614e18",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "f43489dc-83c5-5b15-8b33-bd1585d1fce5",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "28",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "cova",
+      "name_similarity": 0.8,
+      "edit_distance": 1,
+      "candidate_generation_eligible": false,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Cova",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "candidate_generation_minimum_length",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-117",
+      "query": "Kova",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "160655a5-9d44-5f10-b686-c504fff772ea",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "28",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "82100d36-3eef-5bf7-836f-8cb43c68bc1f",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "160",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "ea6f3ea2-1e0d-5730-b709-f5a55f614e18",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "14",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "f43489dc-83c5-5b15-8b33-bd1585d1fce5",
+          "brand_name": "Cova",
+          "ingredients": [
+            {
+              "name": "Valsartan",
+              "salt_basis": null,
+              "strength": {
+                "amount": "80",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "28",
+          "pack_unit": "tablet"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "cova",
+      "name_similarity": 0.75,
+      "edit_distance": 1,
+      "candidate_generation_eligible": false,
+      "similarity_threshold": 0.9,
+      "ambiguity_margin": 0.08,
+      "product_family": "Cova",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "candidate_generation_minimum_length",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    },
+    {
+      "query_id": "held_out-148",
+      "query": "Cefgeit",
+      "expected_state": "AMBIGUOUS_MATCH",
+      "expected_candidates": [
+        {
+          "product_id": "3673eb12-b890-5458-9e74-ee0b85f34f08",
+          "brand_name": "Cefiget",
+          "ingredients": [
+            {
+              "name": "Cefixime",
+              "salt_basis": "as cefixime trihydrate",
+              "strength": {
+                "amount": "100",
+                "unit": "mg",
+                "per_amount": "5",
+                "per_unit": "mL"
+              }
+            }
+          ],
+          "dosage_form": "powder for oral suspension",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "60",
+          "pack_unit": "mL"
+        },
+        {
+          "product_id": "4800040b-130e-5bb9-8153-30f8407b51fe",
+          "brand_name": "Cefiget",
+          "ingredients": [
+            {
+              "name": "Cefixime",
+              "salt_basis": "as cefixime trihydrate",
+              "strength": {
+                "amount": "400",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "capsule"
+              }
+            }
+          ],
+          "dosage_form": "capsule",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "5",
+          "pack_unit": "capsule"
+        },
+        {
+          "product_id": "b9ce8105-07be-54fa-a87b-7e147ce0dbcd",
+          "brand_name": "Cefiget",
+          "ingredients": [
+            {
+              "name": "Cefixime",
+              "salt_basis": "as cefixime trihydrate",
+              "strength": {
+                "amount": "200",
+                "unit": "mg",
+                "per_amount": "1",
+                "per_unit": "tablet"
+              }
+            }
+          ],
+          "dosage_form": "film-coated tablet",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "10",
+          "pack_unit": "tablet"
+        },
+        {
+          "product_id": "e3091007-31e3-56a4-9ddb-1b8b243faf5d",
+          "brand_name": "Cefiget",
+          "ingredients": [
+            {
+              "name": "Cefixime",
+              "salt_basis": "as cefixime trihydrate",
+              "strength": {
+                "amount": "100",
+                "unit": "mg",
+                "per_amount": "5",
+                "per_unit": "mL"
+              }
+            }
+          ],
+          "dosage_form": "powder for oral suspension",
+          "route": "oral",
+          "release_type": null,
+          "pack_amount": "30",
+          "pack_unit": "mL"
+        }
+      ],
+      "actual_state": "NO_CONFIDENT_MATCH",
+      "actual_candidates": [],
+      "match_type": "none_returned; diagnostic_intended_name_similarity_only",
+      "intended_name": "cefiget",
+      "name_similarity": 0.7142857142857143,
+      "edit_distance": 2,
+      "candidate_generation_eligible": true,
+      "similarity_threshold": 0.8,
+      "ambiguity_margin": 0.08,
+      "product_family": "Cefiget",
+      "strength_present": false,
+      "form_present": false,
+      "root_cause": "levenshtein_transposition_cost_and_threshold",
+      "disposition": "HISTORICAL_DIAGNOSTIC_ONLY_NOT_TUNING"
+    }
+  ],
+  "all_failures_expected_ambiguous": true,
+  "all_failures_actual_no_match": true,
+  "wrong_unique": 0
+}

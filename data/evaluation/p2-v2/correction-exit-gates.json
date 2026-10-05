@@ -1,0 +1,188 @@
+{
+  "verdict": "VERIFIED_COMPLETE",
+  "scope": "Bounded local P2 correction; finalization gates require the matching local committed receipt",
+  "finalization_contract": "Status is operative only after staged/committed integrity, secret scan, local commit and clean-tree checks pass. The receipt is ignored to avoid a self-referential commit hash.",
+  "gates": [
+    {
+      "number": 1,
+      "gate": "13 historical failures root-caused",
+      "status": "PASS",
+      "evidence": "historical-audit.json: all 13 reproduced before matcher edits; section 3"
+    },
+    {
+      "number": 2,
+      "gate": "Ambiguity metric semantics verified",
+      "status": "PASS",
+      "evidence": "historical-audit.json and independent metric test: exact state AND UUID set on all expected-ambiguous queries"
+    },
+    {
+      "number": 3,
+      "gate": "No evaluation/reporting bug remains",
+      "status": "PASS",
+      "evidence": "No historical metric bug found; 8 v2 evaluation guard tests; corrected development pack-unit label retained"
+    },
+    {
+      "number": 4,
+      "gate": "Old held-out not used for tuning",
+      "status": "PASS",
+      "evidence": "Historical pre-change diagnostic only; research reads old implementation, not old held-out decisions; no revised matching rerun"
+    },
+    {
+      "number": 5,
+      "gate": "Development v2 independent enough",
+      "status": "PASS",
+      "evidence": "5 connected source components disjoint from v1 held-out; new spellings/fixtures; historical development exposure disclosed"
+    },
+    {
+      "number": 6,
+      "gate": "Safety negatives included",
+      "status": "PASS",
+      "evidence": "47 development / 56 held-out expected negatives; cross-name fixtures and qualifier, suffix, prefix, script checks"
+    },
+    {
+      "number": 7,
+      "gate": "Algorithm correction justified",
+      "status": "PASS",
+      "evidence": "ADR 0004: A-I considered; 7 measured variants using development only"
+    },
+    {
+      "number": 8,
+      "gate": "Development target improves",
+      "status": "PASS",
+      "evidence": "109/147 -> 147/147; exact ambiguity 31/50 -> 50/50; typo 22/58 -> 58/58"
+    },
+    {
+      "number": 9,
+      "gate": "Zero development wrong unique",
+      "status": "PASS",
+      "evidence": "development.json: 0/147, both source and lexical strata"
+    },
+    {
+      "number": 10,
+      "gate": "P0 regression passes",
+      "status": "PASS",
+      "evidence": "Full 219 pass: 20 foundation and 6 source cases, migration/readiness/guard checks"
+    },
+    {
+      "number": 11,
+      "gate": "P1 regression passes",
+      "status": "PASS",
+      "evidence": "15 catalog + 65 API + 8 hardening cases pass; corrected-code runtime restart PASS"
+    },
+    {
+      "number": 12,
+      "gate": "P2 regression passes",
+      "status": "PASS",
+      "evidence": "34 matching + 32 integration/input + 4 historical metric + 27 correction + 8 v2 evaluation cases pass"
+    },
+    {
+      "number": 13,
+      "gate": "PostgreSQL integration passes",
+      "status": "PASS",
+      "evidence": "108 actual PostgreSQL cases / 219; guarded medifind_test; no SQLite/skips"
+    },
+    {
+      "number": 14,
+      "gate": "Held-out v2 independent/versioned",
+      "status": "PASS",
+      "evidence": "167 newly authored after final marker; 5 disjoint connected source components and new fixtures; shared author disclosed"
+    },
+    {
+      "number": 15,
+      "gate": "Held-out frozen before acceptance",
+      "status": "PASS",
+      "evidence": "acceptance-freeze.json timestamp before acceptance-started.json and held-out.json; all input SHA256 pins"
+    },
+    {
+      "number": 16,
+      "gate": "Criteria frozen before acceptance",
+      "status": "PASS",
+      "evidence": "P2-V2-PROTOCOL.md and acceptance-freeze.json: ambiguity >=95%, zero wrong unique, remaining thresholds preserved"
+    },
+    {
+      "number": 17,
+      "gate": "Ambiguity >=95%",
+      "status": "PASS",
+      "evidence": "47/47 = 100%; exact state/set; source 42/42 and fixture 5/5"
+    },
+    {
+      "number": 18,
+      "gate": "Wrong unique =0",
+      "status": "PASS",
+      "evidence": "0/167 including every negative/qualifier/collision; no wrong emitted unique decisions"
+    },
+    {
+      "number": 19,
+      "gate": "Other mandatory thresholds pass",
+      "status": "PASS",
+      "evidence": "All 10 acceptance booleans true; unique 62/64; recall@10 109/111; precision 195/195; negatives 56/56; overall 165/167; anchors 42/42"
+    },
+    {
+      "number": 20,
+      "gate": "Category breakdown reported",
+      "status": "PASS",
+      "evidence": "Report section 20 and held-out.json categories: all 23 categories"
+    },
+    {
+      "number": 21,
+      "gate": "False positives manually reviewed",
+      "status": "PASS",
+      "evidence": "All 167 saved decisions inspected against labels; no extra UUIDs; candidate FP0, negative false-positive decisions0"
+    },
+    {
+      "number": 22,
+      "gate": "False negatives analyzed",
+      "status": "PASS",
+      "evidence": "Section 25: Liacl and qualified Liacl; distance2 exceeds short edit budget1; no post-acceptance edits"
+    },
+    {
+      "number": 23,
+      "gate": "Leakage audit passes",
+      "status": "PASS",
+      "evidence": "dataset-audit.json: no cross-v2/v1-held family or normalized query overlaps; no near-query similarity >=0.90"
+    },
+    {
+      "number": 24,
+      "gate": "Documentation updated",
+      "status": "PASS",
+      "evidence": "40-section correction report plus HANDOFF/CURRENT-STATE/README/ROADMAP/TESTING/RISKS/implementation/data docs"
+    },
+    {
+      "number": 25,
+      "gate": "Technical debt updated",
+      "status": "PASS",
+      "evidence": "Report section31 and RISKS.md correction debt and catalog/operations limits"
+    },
+    {
+      "number": 26,
+      "gate": "Claim audit updated",
+      "status": "PASS",
+      "evidence": "Report section33: implemented, verified, inference and not-proven claims separated"
+    },
+    {
+      "number": 27,
+      "gate": "Diff reviewed",
+      "status": "PASS",
+      "evidence": "Manual algorithm/tooling/data/doc review plus staged/committed integrity review in ignored receipt"
+    },
+    {
+      "number": 28,
+      "gate": "No secrets committed",
+      "status": "PASS",
+      "evidence": "All Git blobs scanned for actual private DSN/demo passwords without logging; ignored private paths excluded; final receipt required"
+    },
+    {
+      "number": 29,
+      "gate": "Local corrective milestone exists",
+      "status": "PASS",
+      "evidence": "Local commit containing this report; exact commit hash in output/recovery/P2-CORRECTION-MILESTONE-RECEIPT.json and git log -1"
+    },
+    {
+      "number": 30,
+      "gate": "Working tree clean",
+      "status": "PASS",
+      "evidence": "Final committed review and git status --porcelain empty; recorded in local receipt"
+    }
+  ],
+  "p3": "READY_FOR_SEPARATE_AUTHORIZATION_NOT_STARTED"
+}

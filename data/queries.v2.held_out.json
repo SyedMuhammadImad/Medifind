@@ -1,0 +1,3200 @@
+{
+  "version": 2,
+  "split": "held_out",
+  "authorship": "Codex manual source/lexical review; not independent human labels",
+  "real_user_distribution": "NOT_PROVEN",
+  "queries": [
+    {
+      "id": "held_out-001",
+      "query": "Cipesta",
+      "category": "exact_brand",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-002",
+      "query": " [CIPESTA] ",
+      "category": "punctuation",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-003",
+      "query": "Ciprofloxacin",
+      "category": "exact_generic",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-004",
+      "query": "cipesta  ",
+      "category": "ambiguous_brand",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-005",
+      "query": "CIPROFLOXACIN",
+      "category": "ambiguous_generic",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-006",
+      "query": "Cipesta 500 mg film-coated tablet",
+      "category": "strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-007",
+      "query": "Ciprofloxacin 500 mg",
+      "category": "strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-008",
+      "query": "Cipesta pack of 10 tablet",
+      "category": "pack_specific",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-009",
+      "query": "Cipseta",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Handwritten independent spelling case 1; source family review"
+    },
+    {
+      "id": "held_out-010",
+      "query": "Cipseta 500 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-011",
+      "query": "Cipeta",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Handwritten independent spelling case 2; source family review"
+    },
+    {
+      "id": "held_out-012",
+      "query": "Cipeta 500 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-013",
+      "query": "Cipestaa",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Handwritten independent spelling case 3; source family review"
+    },
+    {
+      "id": "held_out-014",
+      "query": "Cipestaa 500 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-015",
+      "query": "Sipesta",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Handwritten independent spelling case 4; source family review"
+    },
+    {
+      "id": "held_out-016",
+      "query": "Sipesta 500 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-017",
+      "query": "Cpiesta",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Handwritten independent spelling case 5; source family review"
+    },
+    {
+      "id": "held_out-018",
+      "query": "Cpiesta 500 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-019",
+      "query": "ciprofloxacni",
+      "category": "generic_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-020",
+      "query": "ciproloxacin",
+      "category": "generic_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-021",
+      "query": "ciprooffloxacin",
+      "category": "difficult_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-022",
+      "query": "Cipesta 777 mg",
+      "category": "hard_negative",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-023",
+      "query": "Cipesta ointment",
+      "category": "wrong_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-024",
+      "query": "Cipesta injection",
+      "category": "wrong_form",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-025",
+      "query": "Cipesta EC",
+      "category": "similar_name_negative",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-026",
+      "query": "Cipesta pack of 31 tablet",
+      "category": "hard_negative",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-027",
+      "query": "CiprofloxacinXR",
+      "category": "suffix_negative",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-028",
+      "query": "Gabica",
+      "category": "exact_brand",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-029",
+      "query": " [GABICA] ",
+      "category": "punctuation",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-030",
+      "query": "Pregabalin",
+      "category": "exact_generic",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-031",
+      "query": "gabica  ",
+      "category": "ambiguous_brand",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-032",
+      "query": "PREGABALIN",
+      "category": "ambiguous_generic",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-033",
+      "query": "Gabica 150 mg capsule",
+      "category": "strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-034",
+      "query": "Pregabalin 150 mg",
+      "category": "strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-035",
+      "query": "Gabica pack of 14 capsule",
+      "category": "pack_specific",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-036",
+      "query": "Gabiac",
+      "category": "ordinary_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Handwritten independent spelling case 1; source family review"
+    },
+    {
+      "id": "held_out-037",
+      "query": "Gabiac 150 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-038",
+      "query": "Gabca",
+      "category": "ordinary_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Handwritten independent spelling case 2; source family review"
+    },
+    {
+      "id": "held_out-039",
+      "query": "Gabca 150 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-040",
+      "query": "Gabicca",
+      "category": "ordinary_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Handwritten independent spelling case 3; source family review"
+    },
+    {
+      "id": "held_out-041",
+      "query": "Gabicca 150 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-042",
+      "query": "Gavica",
+      "category": "ordinary_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Handwritten independent spelling case 4; source family review"
+    },
+    {
+      "id": "held_out-043",
+      "query": "Gavica 150 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-044",
+      "query": "Gbaica",
+      "category": "ordinary_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Handwritten independent spelling case 5; source family review"
+    },
+    {
+      "id": "held_out-045",
+      "query": "Gbaica 150 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-046",
+      "query": "pregablain",
+      "category": "generic_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-047",
+      "query": "pregablin",
+      "category": "generic_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-048",
+      "query": "pregarrbalin",
+      "category": "difficult_typo",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2eb3f53f-aa30-5e7a-9f56-8fbca5c8bd49",
+        "77fa12eb-a9d1-581f-8504-6d0e62fc8038",
+        "788fbaf4-13ff-5ec7-96c9-5f374eda60d2",
+        "a3af3f25-e693-5631-ba86-1ddfb1496bc3",
+        "d97d2159-c28f-5bb9-8085-989386ccda6e"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-049",
+      "query": "Gabica 777 mg",
+      "category": "hard_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-050",
+      "query": "Gabica ointment",
+      "category": "wrong_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-051",
+      "query": "Gabica injection",
+      "category": "wrong_form",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-052",
+      "query": "Gabica EC",
+      "category": "similar_name_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-053",
+      "query": "Gabica pack of 31 capsule",
+      "category": "hard_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-054",
+      "query": "PregabalinXR",
+      "category": "suffix_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-055",
+      "query": "Lilac",
+      "category": "exact_brand",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-056",
+      "query": " [LILAC] ",
+      "category": "punctuation",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-057",
+      "query": "Lactulose",
+      "category": "exact_generic",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-058",
+      "query": "Lilac 3.35 g/5 mL syrup",
+      "category": "strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-059",
+      "query": "Lactulose 3.35 g/5 mL",
+      "category": "strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-060",
+      "query": "Lilac pack of 120 mL",
+      "category": "pack_specific",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-061",
+      "query": "Liacl",
+      "category": "ordinary_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Handwritten independent spelling case 1; source family review"
+    },
+    {
+      "id": "held_out-062",
+      "query": "Liacl 3.35 g/5 mL syrup",
+      "category": "typo_strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-063",
+      "query": "Liac",
+      "category": "ordinary_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Handwritten independent spelling case 2; source family review"
+    },
+    {
+      "id": "held_out-064",
+      "query": "Liac 3.35 g/5 mL syrup",
+      "category": "typo_strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-065",
+      "query": "Lilaac",
+      "category": "ordinary_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Handwritten independent spelling case 3; source family review"
+    },
+    {
+      "id": "held_out-066",
+      "query": "Lilaac 3.35 g/5 mL syrup",
+      "category": "typo_strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-067",
+      "query": "Lilat",
+      "category": "ordinary_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Handwritten independent spelling case 4; source family review"
+    },
+    {
+      "id": "held_out-068",
+      "query": "Lilat 3.35 g/5 mL syrup",
+      "category": "typo_strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-069",
+      "query": "Lliac",
+      "category": "ordinary_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Handwritten independent spelling case 5; source family review"
+    },
+    {
+      "id": "held_out-070",
+      "query": "Lliac 3.35 g/5 mL syrup",
+      "category": "typo_strength_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-071",
+      "query": "lactuolse",
+      "category": "generic_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-072",
+      "query": "lactuloe",
+      "category": "generic_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-073",
+      "query": "lactullosee",
+      "category": "difficult_typo",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "6169aa28-c263-5a16-839b-2b69c0a3d1df"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-074",
+      "query": "Lilac 777 g",
+      "category": "hard_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-075",
+      "query": "Lilac ointment",
+      "category": "wrong_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-076",
+      "query": "Lilac injection",
+      "category": "wrong_form",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-077",
+      "query": "Lilac EC",
+      "category": "similar_name_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-078",
+      "query": "Lilac pack of 31 mL",
+      "category": "hard_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-079",
+      "query": "LactuloseXR",
+      "category": "suffix_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-080",
+      "query": "Mebever MR",
+      "category": "exact_brand",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-081",
+      "query": " [MEBEVER MR] ",
+      "category": "punctuation",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-082",
+      "query": "Mebeverine hydrochloride",
+      "category": "exact_generic",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-083",
+      "query": "Mebever MR 200 mg capsule",
+      "category": "strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-084",
+      "query": "Mebeverine hydrochloride 200 mg",
+      "category": "strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-085",
+      "query": "Mebever MR pack of 10 capsule",
+      "category": "pack_specific",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-086",
+      "query": "Mebveer MR",
+      "category": "ordinary_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Handwritten independent spelling case 1; source family review"
+    },
+    {
+      "id": "held_out-087",
+      "query": "Mebveer MR 200 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-088",
+      "query": "Mebeve MR",
+      "category": "ordinary_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Handwritten independent spelling case 2; source family review"
+    },
+    {
+      "id": "held_out-089",
+      "query": "Mebeve MR 200 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-090",
+      "query": "Mebevver MR",
+      "category": "ordinary_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Handwritten independent spelling case 3; source family review"
+    },
+    {
+      "id": "held_out-091",
+      "query": "Mebevver MR 200 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-092",
+      "query": "Mebvver MR",
+      "category": "ordinary_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Handwritten independent spelling case 4; source family review"
+    },
+    {
+      "id": "held_out-093",
+      "query": "Mebvver MR 200 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-094",
+      "query": "Mebeverr MR",
+      "category": "ordinary_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Handwritten independent spelling case 5; source family review"
+    },
+    {
+      "id": "held_out-095",
+      "query": "Mebeverr MR 200 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-096",
+      "query": "mebeverien hydrochloride",
+      "category": "generic_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-097",
+      "query": "mebeverine hydrochlordie",
+      "category": "generic_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-098",
+      "query": "mebeveriinex hydrochloride",
+      "category": "difficult_typo",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-099",
+      "query": "Mebever MR 777 mg",
+      "category": "hard_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-100",
+      "query": "Mebever MR ointment",
+      "category": "wrong_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-101",
+      "query": "Mebever MR injection",
+      "category": "wrong_form",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-102",
+      "query": "Mebever MR EC",
+      "category": "similar_name_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-103",
+      "query": "Mebever MR pack of 31 capsule",
+      "category": "hard_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-104",
+      "query": "Mebeverine hydrochlorideXR",
+      "category": "suffix_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-105",
+      "query": "Nexum",
+      "category": "exact_brand",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-106",
+      "query": " [NEXUM] ",
+      "category": "punctuation",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-107",
+      "query": "Esomeprazole",
+      "category": "exact_generic",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-108",
+      "query": "nexum  ",
+      "category": "ambiguous_brand",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-109",
+      "query": "ESOMEPRAZOLE",
+      "category": "ambiguous_generic",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-110",
+      "query": "Nexum 40 mg capsule",
+      "category": "strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-111",
+      "query": "Esomeprazole 40 mg",
+      "category": "strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-112",
+      "query": "Nexum pack of 14 capsule",
+      "category": "pack_specific",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-113",
+      "query": "Nexmu",
+      "category": "ordinary_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Handwritten independent spelling case 1; source family review"
+    },
+    {
+      "id": "held_out-114",
+      "query": "Nexmu 40 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-115",
+      "query": "Nexm",
+      "category": "ordinary_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Handwritten independent spelling case 2; source family review"
+    },
+    {
+      "id": "held_out-116",
+      "query": "Nexm 40 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-117",
+      "query": "Nexuum",
+      "category": "ordinary_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Handwritten independent spelling case 3; source family review"
+    },
+    {
+      "id": "held_out-118",
+      "query": "Nexuum 40 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-119",
+      "query": "Dexum",
+      "category": "ordinary_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Handwritten independent spelling case 4; source family review"
+    },
+    {
+      "id": "held_out-120",
+      "query": "Dexum 40 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-121",
+      "query": "Nx eum",
+      "category": "spacing_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-122",
+      "query": "esomprazole",
+      "category": "generic_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-123",
+      "query": "esomepraozle",
+      "category": "generic_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-124",
+      "query": "esomeprazolleq",
+      "category": "difficult_typo",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "264488b7-c6df-5660-ad10-3c4765c88073",
+        "ce85e2ae-cacf-5171-98f5-2785f53623d8"
+      ],
+      "label_review": "Manually transformed ingredient spelling; source identity and composition unchanged"
+    },
+    {
+      "id": "held_out-125",
+      "query": "Nexum 777 mg",
+      "category": "hard_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-126",
+      "query": "Nexum ointment",
+      "category": "wrong_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-127",
+      "query": "Nexum injection",
+      "category": "wrong_form",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-128",
+      "query": "Nexum EC",
+      "category": "similar_name_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-129",
+      "query": "Nexum pack of 31 capsule",
+      "category": "hard_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-130",
+      "query": "EsomeprazoleXR",
+      "category": "suffix_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported explicit presentation qualifier or marker, not an actual medicine claim"
+    },
+    {
+      "id": "held_out-131",
+      "query": "Mebeverine HCl",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-132",
+      "query": "MEBEVERINE HCL 200 mg",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-133",
+      "query": "Mebeverine HCl 200 mg capsule",
+      "category": "approved_alias",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "3634e4ae-66e2-5b06-a642-25fe5ba017b4"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-134",
+      "query": "Cipest",
+      "category": "ordinary_typo",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "359d1480-d379-54f8-ae73-549e9d9f40c3",
+        "fc6501d4-0e48-5acc-80ef-279cab345179"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-135",
+      "query": "Gab",
+      "category": "prefix_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-136",
+      "query": "Li",
+      "category": "prefix_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-137",
+      "query": "Mebever",
+      "category": "prefix_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-138",
+      "query": "Nex",
+      "category": "prefix_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-139",
+      "query": "Cipesta 500 mg syrup",
+      "category": "hard_negative",
+      "family": "Cipesta",
+      "related_families": [
+        "Cipesta"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-140",
+      "query": "Gabica 150 mg tablet",
+      "category": "hard_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-141",
+      "query": "Lilac 3.35 g/1 mL syrup",
+      "category": "hard_negative",
+      "family": "Lilac",
+      "related_families": [
+        "Lilac"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-142",
+      "query": "Mebveer XR 200 mg capsule",
+      "category": "hard_negative",
+      "family": "Mebever MR",
+      "related_families": [
+        "Mebever MR"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-143",
+      "query": "Nexmu 80 mg capsule",
+      "category": "hard_negative",
+      "family": "Nexum",
+      "related_families": [
+        "Nexum"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-144",
+      "query": "Gabicca 150 mg pack of 100 capsules",
+      "category": "hard_negative",
+      "family": "Gabica",
+      "related_families": [
+        "Gabica"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-145",
+      "query": "Atenolol",
+      "category": "unsupported_name",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-146",
+      "query": "Cetirizine",
+      "category": "unsupported_name",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-147",
+      "query": "Pantoprazole",
+      "category": "unsupported_name",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-148",
+      "query": "Finasteride",
+      "category": "unsupported_name",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-149",
+      "query": "Dabigatran etexilate",
+      "category": "unsupported_name",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-150",
+      "query": "gxbaqx",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-151",
+      "query": "nxuqq",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-152",
+      "query": "lqlcq",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-153",
+      "query": "mebvqr qx",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-154",
+      "query": "cpiqqst",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-155",
+      "query": "فیناسٹرائیڈ",
+      "category": "nonsense",
+      "family": "held-independent-negatives",
+      "related_families": [
+        "held-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "held_out-156",
+      "query": "Velnron",
+      "category": "close_two_names",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [
+        "e7d9f243-9582-53af-bc26-aa802662eeb2",
+        "e89b1a75-6f79-5e7c-b8f8-c0309c35158c"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-157",
+      "query": "Velnron 10 mg",
+      "category": "collision_qualifier",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [
+        "e89b1a75-6f79-5e7c-b8f8-c0309c35158c"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-158",
+      "query": "Velnron 20 mg",
+      "category": "collision_qualifier",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [
+        "e7d9f243-9582-53af-bc26-aa802662eeb2"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-159",
+      "query": "Veltron",
+      "category": "exact_brand",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [
+        "e89b1a75-6f79-5e7c-b8f8-c0309c35158c"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-160",
+      "query": "Veldron",
+      "category": "exact_brand",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [
+        "e7d9f243-9582-53af-bc26-aa802662eeb2"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-161",
+      "query": "Veltron 20 mg",
+      "category": "exact_precedence_negative",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-162",
+      "query": "Velnron cream",
+      "category": "hard_negative",
+      "family": "held-collision-one",
+      "related_families": [
+        "held-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-one",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-163",
+      "query": "Nurvalintine",
+      "category": "close_two_names",
+      "family": "held-collision-two",
+      "related_families": [
+        "held-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-two",
+      "expected_ids": [
+        "119c7501-8ceb-5d9c-90c4-8383ae11dd5d",
+        "47cec187-574e-52ba-bf8b-f532010c455b"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-164",
+      "query": "Nurvalintine 20 mg",
+      "category": "collision_qualifier",
+      "family": "held-collision-two",
+      "related_families": [
+        "held-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-two",
+      "expected_ids": [
+        "47cec187-574e-52ba-bf8b-f532010c455b"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-165",
+      "query": "Nurvalentine",
+      "category": "exact_brand",
+      "family": "held-collision-two",
+      "related_families": [
+        "held-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-two",
+      "expected_ids": [
+        "119c7501-8ceb-5d9c-90c4-8383ae11dd5d"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-166",
+      "query": "Nurvalantine 10 mg",
+      "category": "exact_precedence_negative",
+      "family": "held-collision-two",
+      "related_families": [
+        "held-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-two",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "held_out-167",
+      "query": "Nurvalintine IV",
+      "category": "suffix_negative",
+      "family": "held-collision-two",
+      "related_families": [
+        "held-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "held-collision-two",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    }
+  ],
+  "synthetic_contexts": {
+    "held-collision-one": [
+      {
+        "product_id": "e89b1a75-6f79-5e7c-b8f8-c0309c35158c",
+        "brand_name": "Veltron",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "10",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      },
+      {
+        "product_id": "e7d9f243-9582-53af-bc26-aa802662eeb2",
+        "brand_name": "Veldron",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "20",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      }
+    ],
+    "held-collision-two": [
+      {
+        "product_id": "119c7501-8ceb-5d9c-90c4-8383ae11dd5d",
+        "brand_name": "Nurvalentine",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "10",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      },
+      {
+        "product_id": "47cec187-574e-52ba-bf8b-f532010c455b",
+        "brand_name": "Nurvalantine",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "20",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      }
+    ]
+  },
+  "constructed_at": "2026-10-05T12:30:46.066811+00:00",
+  "constructed_after_implementation_final_sha256": "9194d496e4ba98815715d919b608f2ee4cd1b1b687ac46d672a44e6f38e891ec",
+  "authoring_note": "After final 219-case regression; no acceptance search or scorer output used to label queries"
+}

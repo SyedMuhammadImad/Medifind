@@ -1,0 +1,11 @@
+{
+  "scope": "synthetic_test_database_only",
+  "browser_rendering": "NOT_RUN",
+  "backend_process_restart": "PASS: session/catalog/inventory preserved",
+  "postgresql_restart": "PASS: session/catalog/inventory/timestamps preserved",
+  "readiness_recovery": "200 -> 503 -> 200; liveness 200",
+  "frontend_proxy": "PASS: HTML/login/readiness/inventory HTTP; no rendered UI claim",
+  "clean_schema_migrate_import_start": "PASS: five source records",
+  "verified_on": "2026-10-05",
+  "synthetic_rows_only": true
+}

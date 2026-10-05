@@ -1,0 +1,2963 @@
+{
+  "version": 2,
+  "split": "development",
+  "authorship": "Codex manual source/lexical review; not independent human labels",
+  "real_user_distribution": "NOT_PROVEN",
+  "queries": [
+    {
+      "id": "development-001",
+      "query": "Fexet",
+      "category": "exact_brand",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-002",
+      "query": "FEXET",
+      "category": "case",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-003",
+      "query": "(Fexet)",
+      "category": "punctuation",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-004",
+      "query": "Fexofenadine hydrochloride",
+      "category": "exact_generic",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-005",
+      "query": "Fexet 30 mg film-coated tablet",
+      "category": "strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-006",
+      "query": "Fexet pack of 10 tablets",
+      "category": "pack_specific",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-007",
+      "query": "Fexte",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-008",
+      "query": "Fexte 30 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-009",
+      "query": "Fext",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Handwritten deletion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-010",
+      "query": "Fext 30 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-011",
+      "query": "Fexxet",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-012",
+      "query": "Fexxet 30 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-013",
+      "query": "Faxet",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Handwritten substitution; source family reviewed without matcher"
+    },
+    {
+      "id": "development-014",
+      "query": "Faxet 30 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-015",
+      "query": "Fxeet",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-016",
+      "query": "Fxeet 30 mg film-coated tablet",
+      "category": "typo_strength_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-017",
+      "query": "Fexet 9999 mg",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-018",
+      "query": "Fexet cream",
+      "category": "wrong_form",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-019",
+      "query": "Fexet XR",
+      "category": "suffix_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-020",
+      "query": "Fexet QZ",
+      "category": "similar_name_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-021",
+      "query": "Fexet pack of 999 tablets",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-022",
+      "query": "Montiget",
+      "category": "exact_brand",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-023",
+      "query": "MONTIGET",
+      "category": "case",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-024",
+      "query": "(Montiget)",
+      "category": "punctuation",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-025",
+      "query": "Montelukast",
+      "category": "exact_generic",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-026",
+      "query": "Montiget 5 mg chewable tablet",
+      "category": "strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-027",
+      "query": "Montiget pack of 14 tablets",
+      "category": "pack_specific",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-028",
+      "query": "Monitget",
+      "category": "ordinary_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-029",
+      "query": "Monitget 5 mg chewable tablet",
+      "category": "typo_strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-030",
+      "query": "Montget",
+      "category": "ordinary_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Handwritten deletion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-031",
+      "query": "Montget 5 mg chewable tablet",
+      "category": "typo_strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-032",
+      "query": "Montigjet",
+      "category": "ordinary_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-033",
+      "query": "Montigjet 5 mg chewable tablet",
+      "category": "typo_strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-034",
+      "query": "Muntiget",
+      "category": "ordinary_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Handwritten substitution; source family reviewed without matcher"
+    },
+    {
+      "id": "development-035",
+      "query": "Muntiget 5 mg chewable tablet",
+      "category": "typo_strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-036",
+      "query": "Montigettx",
+      "category": "difficult_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Handwritten multiple_edits; source family reviewed without matcher"
+    },
+    {
+      "id": "development-037",
+      "query": "Montigettx 5 mg chewable tablet",
+      "category": "typo_strength_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "485f8298-48cd-5ca9-8f39-4ef820612753"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-038",
+      "query": "Montiget 9999 mg",
+      "category": "hard_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-039",
+      "query": "Montiget cream",
+      "category": "wrong_form",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-040",
+      "query": "Montiget XR",
+      "category": "suffix_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-041",
+      "query": "Montiget QZ",
+      "category": "similar_name_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-042",
+      "query": "Montiget pack of 999 tablets",
+      "category": "hard_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-043",
+      "query": "Risek",
+      "category": "exact_brand",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-044",
+      "query": "RISEK",
+      "category": "case",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-045",
+      "query": "(Risek)",
+      "category": "punctuation",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-046",
+      "query": "Omeprazole",
+      "category": "exact_generic",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-047",
+      "query": "Risek 20 mg capsule",
+      "category": "strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-048",
+      "query": "Risek pack of 14 capsules",
+      "category": "pack_specific",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-049",
+      "query": "Riske",
+      "category": "ordinary_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-050",
+      "query": "Riske 20 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-051",
+      "query": "Riek",
+      "category": "ordinary_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Handwritten deletion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-052",
+      "query": "Riek 20 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-053",
+      "query": "Riisek",
+      "category": "ordinary_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-054",
+      "query": "Riisek 20 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-055",
+      "query": "Rusek",
+      "category": "ordinary_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Handwritten substitution; source family reviewed without matcher"
+    },
+    {
+      "id": "development-056",
+      "query": "Rusek 20 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-057",
+      "query": "Rissek",
+      "category": "ordinary_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-058",
+      "query": "Rissek 20 mg capsule",
+      "category": "typo_strength_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-059",
+      "query": "Risek 9999 mg",
+      "category": "hard_negative",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-060",
+      "query": "Risek cream",
+      "category": "wrong_form",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-061",
+      "query": "Risek XR",
+      "category": "suffix_negative",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-062",
+      "query": "Risek QZ",
+      "category": "similar_name_negative",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-063",
+      "query": "Risek pack of 999 tablets",
+      "category": "hard_negative",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-064",
+      "query": "Tasmi",
+      "category": "exact_brand",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-065",
+      "query": "TASMI",
+      "category": "case",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-066",
+      "query": "(Tasmi)",
+      "category": "punctuation",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-067",
+      "query": "Telmisartan",
+      "category": "exact_generic",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-068",
+      "query": "Tasmi 40 mg tablet",
+      "category": "strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-069",
+      "query": "Tasmi pack of 14 tablets",
+      "category": "pack_specific",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-070",
+      "query": "Tamsi",
+      "category": "ordinary_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-071",
+      "query": "Tamsi 40 mg tablet",
+      "category": "typo_strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-072",
+      "query": "Tami",
+      "category": "ordinary_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Handwritten deletion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-073",
+      "query": "Tami 40 mg tablet",
+      "category": "typo_strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-074",
+      "query": "Tassmi",
+      "category": "ordinary_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-075",
+      "query": "Tassmi 40 mg tablet",
+      "category": "typo_strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-076",
+      "query": "Tosmi",
+      "category": "ordinary_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Handwritten substitution; source family reviewed without matcher"
+    },
+    {
+      "id": "development-077",
+      "query": "Tosmi 40 mg tablet",
+      "category": "typo_strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-078",
+      "query": "Tsami",
+      "category": "ordinary_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-079",
+      "query": "Tsami 40 mg tablet",
+      "category": "typo_strength_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-080",
+      "query": "Tasmi 9999 mg",
+      "category": "hard_negative",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-081",
+      "query": "Tasmi cream",
+      "category": "wrong_form",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-082",
+      "query": "Tasmi XR",
+      "category": "suffix_negative",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-083",
+      "query": "Tasmi QZ",
+      "category": "similar_name_negative",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-084",
+      "query": "Tasmi pack of 999 tablets",
+      "category": "hard_negative",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-085",
+      "query": "Salbo HFA",
+      "category": "exact_brand",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-086",
+      "query": "SALBO HFA",
+      "category": "case",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-087",
+      "query": "(Salbo HFA)",
+      "category": "punctuation",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-088",
+      "query": "Salbutamol",
+      "category": "exact_generic",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "source-derived",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-089",
+      "query": "Salbo HFA 100 mcg inhaler",
+      "category": "strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-090",
+      "query": "Salbo HFA pack of 200 inhalations",
+      "category": "pack_specific",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-091",
+      "query": "Slabo HFA",
+      "category": "ordinary_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Handwritten transposition; source family reviewed without matcher"
+    },
+    {
+      "id": "development-092",
+      "query": "Slabo HFA 100 mcg inhaler",
+      "category": "typo_strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-093",
+      "query": "Sabo HFA",
+      "category": "ordinary_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Handwritten deletion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-094",
+      "query": "Sabo HFA 100 mcg inhaler",
+      "category": "typo_strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-095",
+      "query": "Sallbo HFA",
+      "category": "ordinary_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-096",
+      "query": "Sallbo HFA 100 mcg inhaler",
+      "category": "typo_strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-097",
+      "query": "Selbo HFA",
+      "category": "ordinary_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Handwritten substitution; source family reviewed without matcher"
+    },
+    {
+      "id": "development-098",
+      "query": "Selbo HFA 100 mcg inhaler",
+      "category": "typo_strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-099",
+      "query": "Salbxo HFA",
+      "category": "ordinary_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Handwritten insertion; source family reviewed without matcher"
+    },
+    {
+      "id": "development-100",
+      "query": "Salbxo HFA 100 mcg inhaler",
+      "category": "typo_strength_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-101",
+      "query": "Salbo HFA 9999 mcg",
+      "category": "hard_negative",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-102",
+      "query": "Salbo HFA cream",
+      "category": "wrong_form",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-103",
+      "query": "Salbo HFA XR",
+      "category": "suffix_negative",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-104",
+      "query": "Salbo HFA QZ",
+      "category": "similar_name_negative",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-105",
+      "query": "Salbo HFA pack of 999 tablets",
+      "category": "hard_negative",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Unsupported literal qualifier/suffix; not a factual medicine"
+    },
+    {
+      "id": "development-106",
+      "query": "fexofenadine hydrocloride",
+      "category": "generic_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-107",
+      "query": "omeprzole",
+      "category": "generic_typo",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "5f294233-54d5-5f8b-a8f0-77fa45e9d53b",
+        "cf32cdc8-eb0b-53b2-9a64-3a8b99a08217"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-108",
+      "query": "telmiasrtan",
+      "category": "generic_typo",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "11fb2e14-89cf-519b-85c9-83be9f1cd09e",
+        "945e2fb1-bbb5-5a06-b88e-18a66c132613",
+        "e4669d4e-310d-5477-98ce-04156a711988"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-109",
+      "query": "montelukats",
+      "category": "generic_typo",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e985542-75eb-54dc-84bc-134b25a07d66",
+        "485f8298-48cd-5ca9-8f39-4ef820612753",
+        "5b5b4842-2b8c-5304-a344-ad447fe7f024",
+        "7b4d0d98-3645-5339-a2db-2fbb7613ea89"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-110",
+      "query": "salbutmool",
+      "category": "generic_typo",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "typo-transformed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "69d7d1b8-86f0-5d10-897a-52fefe80eece"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-111",
+      "query": "Fexofenadine HCl",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "0b13894c-c47a-5561-ac10-fe9301176e92",
+        "1ada622c-9b35-5151-96f5-08106cdcabeb",
+        "2013535e-00c3-5b65-9706-ac454a2a95f5",
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "4f534737-0c5f-5e09-8f2e-0e38a1e42202",
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe",
+        "dfc93242-307c-54c8-ab22-701ba001eba7",
+        "e1fe40a9-f5ac-5a8c-a24c-471f42ef0e26"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-112",
+      "query": "Fexofenadine HCl 30 mg",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "1ada622c-9b35-5151-96f5-08106cdcabeb"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-113",
+      "query": "Fexofenadine HCl 120 mg tablet",
+      "category": "approved_alias",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "reviewed-alias",
+      "context": "source_catalog",
+      "expected_ids": [
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "dfc93242-307c-54c8-ab22-701ba001eba7"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "source_product_ids": [
+        "2e81b296-2984-5e1e-a030-e06ce2085225",
+        "dfc93242-307c-54c8-ab22-701ba001eba7"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-114",
+      "query": "Fexet-D",
+      "category": "exact_brand",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-115",
+      "query": "Fexet D 60 mg + 120 mg",
+      "category": "exact_brand",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-116",
+      "query": "Fexett D",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-117",
+      "query": "Fexte D",
+      "category": "ordinary_typo",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "manually-constructed",
+      "context": "source_catalog",
+      "expected_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "source_product_ids": [
+        "b6fdd8ab-85c5-5f39-b51f-fff24bb4fdfe"
+      ],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-118",
+      "query": "Fexet D 120 mg + 60 mg",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-119",
+      "query": "Fexett XR",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-120",
+      "query": "Monti",
+      "category": "prefix_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-121",
+      "query": "Tas",
+      "category": "prefix_negative",
+      "family": "Tasmi",
+      "related_families": [
+        "Tasmi"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-122",
+      "query": "Risexx",
+      "category": "hard_negative",
+      "family": "Risek",
+      "related_families": [
+        "Risek"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-123",
+      "query": "Salbo",
+      "category": "prefix_negative",
+      "family": "Salbo HFA",
+      "related_families": [
+        "Salbo HFA"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-124",
+      "query": "Fexet D 60 mg + 121 mg",
+      "category": "hard_negative",
+      "family": "Fexet",
+      "related_families": [
+        "Fexet"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-125",
+      "query": "Monziget 500 mg",
+      "category": "hard_negative",
+      "family": "Montiget",
+      "related_families": [
+        "Montiget"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-126",
+      "query": "Aspirin",
+      "category": "unsupported_name",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-127",
+      "query": "Amoxicillin",
+      "category": "unsupported_name",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-128",
+      "query": "Ibuprofen",
+      "category": "unsupported_name",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-129",
+      "query": "zzqmedalpha",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-130",
+      "query": "qzxsalv",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-131",
+      "query": "fqrsne",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-132",
+      "query": "mtoxget",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-133",
+      "query": "xzyrse",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-134",
+      "query": "تلما",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-135",
+      "query": "🔥",
+      "category": "nonsense",
+      "family": "dev-independent-negatives",
+      "related_families": [
+        "dev-independent-negatives"
+      ],
+      "origin": "synthetic",
+      "context": "source_catalog",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "source_product_ids": [],
+      "label_review": "Literal source label; Codex review, not independent human review"
+    },
+    {
+      "id": "development-136",
+      "query": "Zafnex",
+      "category": "exact_brand",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [
+        "b585bf09-b09d-5a4d-be46-b7b372e72c2b"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-137",
+      "query": "Zafmex",
+      "category": "exact_brand",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [
+        "ab3fe459-2eeb-5c15-a2a5-1073e7c64e34"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-138",
+      "query": "Zafrex",
+      "category": "close_two_names",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [
+        "ab3fe459-2eeb-5c15-a2a5-1073e7c64e34",
+        "b585bf09-b09d-5a4d-be46-b7b372e72c2b"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-139",
+      "query": "Zafrex 10 mg",
+      "category": "collision_qualifier",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [
+        "b585bf09-b09d-5a4d-be46-b7b372e72c2b"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-140",
+      "query": "Zafrex 999 mg",
+      "category": "hard_negative",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-141",
+      "query": "Zafnex 20 mg",
+      "category": "exact_precedence_negative",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-142",
+      "query": "Zafnex XR",
+      "category": "suffix_negative",
+      "family": "dev-collision-one",
+      "related_families": [
+        "dev-collision-one"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-one",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-143",
+      "query": "Tralvexine",
+      "category": "close_two_names",
+      "family": "dev-collision-two",
+      "related_families": [
+        "dev-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-two",
+      "expected_ids": [
+        "b2fd6848-6533-5966-bd93-8b1513155069",
+        "eb66ab52-7169-5c1e-921e-cc148f2fd283"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-144",
+      "query": "Tralvexine 20 mg",
+      "category": "collision_qualifier",
+      "family": "dev-collision-two",
+      "related_families": [
+        "dev-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-two",
+      "expected_ids": [
+        "b2fd6848-6533-5966-bd93-8b1513155069"
+      ],
+      "expected_state": "AMBIGUOUS_MATCH",
+      "ambiguity_basis": "controlled_name_collision",
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-145",
+      "query": "Tralvexone",
+      "category": "exact_brand",
+      "family": "dev-collision-two",
+      "related_families": [
+        "dev-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-two",
+      "expected_ids": [
+        "eb66ab52-7169-5c1e-921e-cc148f2fd283"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-146",
+      "query": "Tralvexxone",
+      "category": "ordinary_typo",
+      "family": "dev-collision-two",
+      "related_families": [
+        "dev-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-two",
+      "expected_ids": [
+        "eb66ab52-7169-5c1e-921e-cc148f2fd283"
+      ],
+      "expected_state": "UNIQUE_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    },
+    {
+      "id": "development-147",
+      "query": "Tralvexone 20 mg",
+      "category": "exact_precedence_negative",
+      "family": "dev-collision-two",
+      "related_families": [
+        "dev-collision-two"
+      ],
+      "origin": "synthetic",
+      "context": "dev-collision-two",
+      "expected_ids": [],
+      "expected_state": "NO_CONFIDENT_MATCH",
+      "ambiguity_basis": null,
+      "label_review": "Hand-reviewed artificial lexical fixture; no factual medicine claim"
+    }
+  ],
+  "synthetic_contexts": {
+    "dev-collision-one": [
+      {
+        "product_id": "b585bf09-b09d-5a4d-be46-b7b372e72c2b",
+        "brand_name": "Zafnex",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "10",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      },
+      {
+        "product_id": "ab3fe459-2eeb-5c15-a2a5-1073e7c64e34",
+        "brand_name": "Zafmex",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "20",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      }
+    ],
+    "dev-collision-two": [
+      {
+        "product_id": "eb66ab52-7169-5c1e-921e-cc148f2fd283",
+        "brand_name": "Tralvexone",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "10",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      },
+      {
+        "product_id": "b2fd6848-6533-5966-bd93-8b1513155069",
+        "brand_name": "Tralvexane",
+        "ingredients": [
+          {
+            "name": "SYNTHETIC fixture substance",
+            "strength": {
+              "amount": "20",
+              "unit": "mg",
+              "per_amount": "1",
+              "per_unit": "tablet"
+            }
+          }
+        ],
+        "dosage_form": "tablet",
+        "route": null,
+        "release_type": null,
+        "pack_amount": "10",
+        "pack_unit": "tablet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,953 @@
+Continue MEDIFIND.
+
+Begin:
+
+P2 — Medicine Search, Matching, Location, Freshness, and Evaluation
+
+==================================================
+AUTHORITATIVE LOCAL BASELINE
+==================================================
+
+The currently verified local repository history is:
+
+P0 baseline:
+b1bd966
+
+P1 VERIFIED_COMPLETE:
+1c4cc00
+
+The previously referenced historical commits dc39adf and 0e2bdba are not the authoritative local lineage for this working repository.
+
+Before P2 implementation, ensure CURRENT-STATE.md / HANDOFF.md clearly record the actual local lineage and explain any historical-hash discrepancy if it is not already documented.
+
+Do NOT rewrite history simply to recreate old hashes.
+
+P1 evidence currently reports:
+
+- 114 passed
+- 0 failed
+- 0 skipped
+- 93 tests using real PostgreSQL
+- clean PostgreSQL migration/import/start verification
+- Argon2id authentication
+- PostgreSQL-backed browser sessions
+- ownership authorization
+- inventory freshness semantics
+- revision-based concurrency protection
+- restart persistence
+- five sourced medicine presentations
+- clean working tree
+- P1 commit 1c4cc00
+
+Treat these as the baseline claims that must survive P2 regression testing.
+
+==================================================
+IMPORTANT REPORTING RULE
+==================================================
+
+I do NOT want a success-only P2 report.
+
+Your final P2 report must explicitly expose:
+
+- what worked;
+- what failed;
+- what is weak;
+- what remains unverified;
+- what is only fixture/synthetic proven;
+- what could give false confidence;
+- assumptions;
+- technical debt;
+- rejected alternatives;
+- data weaknesses;
+- evaluation weaknesses;
+- exact failed examples;
+- any divergence from the approved architecture;
+- anything an external FYP evaluator could reasonably challenge.
+
+A PARTIAL result is better than a false VERIFIED_COMPLETE.
+
+==================================================
+STEP 0 — VERIFY P1
+==================================================
+
+Before modifying code:
+
+1. Confirm HEAD/history contains P1 commit 1c4cc00.
+2. Confirm working tree is clean.
+3. Read:
+   - CURRENT-STATE.md
+   - HANDOFF.md
+   - ROADMAP.md
+   - TESTING.md
+   - P1-IMPLEMENTATION.md
+   - P1-VERIFICATION.md
+   - catalog/source/provenance documentation
+4. Rerun the relevant P0/P1 regression suite.
+5. Verify PostgreSQL integration still works.
+
+If a previously verified P1 behavior fails:
+
+STOP P2.
+
+Report the regression and whether P1 must be reopened.
+
+==================================================
+P2 OBJECTIVE
+==================================================
+
+Build and objectively evaluate MEDIFIND's V1 medicine-discovery pipeline:
+
+query
+→ normalization
+→ exact brand/generic matching
+→ approved aliases
+→ controlled typo/fuzzy matching
+→ ambiguity detection
+→ explicit medicine presentation selection
+→ pharmacy inventory retrieval
+→ radius/location filtering
+→ stock freshness
+→ deterministic ranking
+→ structured search result
+
+The system must prefer:
+
+AMBIGUOUS
+
+or
+
+NO_CONFIDENT_MATCH
+
+over silently selecting the wrong medicine.
+
+==================================================
+P2A — DATA FIRST
+==================================================
+
+The current five-medicine catalog is NOT sufficient for meaningful final evaluation.
+
+Expand the catalog before freezing the evaluation dataset.
+
+Planning target:
+
+approximately 100–200 defensibly sourced medicine presentations.
+
+This is NOT a quota.
+
+Do not lower source quality just to reach 100.
+
+Investigate defensible Pakistani-market sources such as:
+
+- official Getz Pharma product information;
+- DRAP where accessible;
+- official manufacturer product pages;
+- official prescribing/product PDFs;
+- other authoritative or defensible pharmaceutical sources.
+
+Do not use arbitrary blogs, medicine shops, SEO pages or unverified scraped aggregators as factual medicine sources merely to increase volume.
+
+For every source record preserve:
+
+- source owner;
+- source reference/URL;
+- collection date;
+- manufacturer;
+- brand;
+- ingredient/generic;
+- strength where provided;
+- dosage form where provided;
+- route/release/pack where provided;
+- provenance;
+- transformation notes;
+- source artifact/hash where appropriate.
+
+Never invent missing medicine attributes.
+
+If only 40, 70 or 90 high-quality records can defensibly be obtained, keep those and report why.
+
+==================================================
+CATALOG AUDIT
+==================================================
+
+After expansion report:
+
+- total presentations;
+- unique brands;
+- unique active ingredients/generics;
+- manufacturers;
+- dosage forms;
+- strengths;
+- missing-strength count;
+- missing-form count;
+- missing-provenance count;
+- duplicate candidates;
+- conflicting records;
+- rejected records;
+- rejection reasons.
+
+Do not proceed to final evaluation without understanding catalog quality.
+
+==================================================
+P2B — DETERMINISTIC SEARCH BASELINE
+==================================================
+
+Implement the V1 baseline in this general priority:
+
+1. deterministic normalization
+2. exact brand
+3. exact generic/ingredient
+4. approved aliases
+5. fuzzy/typo matching
+6. ambiguity/no-match decision
+
+Do NOT introduce:
+
+- embeddings
+- transformers
+- LLM reasoning
+- LangChain
+- LangGraph
+- vector databases
+
+during P2.
+
+These may later be evaluated against this baseline.
+
+==================================================
+NORMALIZATION
+==================================================
+
+Support safe normalization such as:
+
+- Unicode normalization;
+- case normalization;
+- whitespace normalization;
+- harmless punctuation normalization.
+
+Do NOT erase medically meaningful distinctions.
+
+Examples:
+
+250 mg != 500 mg
+
+tablet != suspension
+
+XR/modified release information must not be casually discarded where it is product-defining.
+
+==================================================
+EXACT SEARCH
+==================================================
+
+Support exact normalized:
+
+- brand search;
+- generic/ingredient search.
+
+If a brand maps to several presentations, return candidates.
+
+Do not select an arbitrary strength/form.
+
+==================================================
+ALIASES
+==================================================
+
+Aliases must be explicit reviewed data.
+
+Store enough metadata to identify:
+
+- alias;
+- target;
+- alias type/language;
+- provenance/review status.
+
+Do not use an LLM to manufacture aliases.
+
+If Urdu/Roman-Urdu coverage is small, describe it as bounded alias support, NOT broad multilingual NLP.
+
+==================================================
+FUZZY / TYPO MATCHING
+==================================================
+
+Implement conservative fuzzy matching using an appropriate library/algorithm.
+
+Do not implement:
+
+highest_score = automatic winner
+
+Require:
+
+- threshold;
+- tie handling;
+- ambiguity margin/rule;
+- hard-negative handling;
+- no-confident-match state.
+
+Expose match reason/type, e.g.:
+
+exact_brand
+exact_generic
+alias
+fuzzy_brand
+fuzzy_generic
+
+A fuzzy score is only NAME-MATCH similarity.
+
+It is NOT medical or clinical confidence.
+
+==================================================
+AMBIGUITY
+==================================================
+
+Ambiguity must be a first-class outcome.
+
+Support equivalent structured states such as:
+
+UNIQUE_MATCH
+AMBIGUOUS_MATCH
+NO_CONFIDENT_MATCH
+
+Ambiguity must be returned for cases such as:
+
+- same brand, multiple strengths;
+- same brand, multiple forms;
+- generic mapping to many products;
+- fuzzy candidates too close to distinguish safely.
+
+Never silently collapse medicine presentations.
+
+==================================================
+LOCATION
+==================================================
+
+After a medicine presentation is resolved/selected:
+
+retrieve pharmacy inventory by location.
+
+Use an appropriate distance formula such as Haversine.
+
+For V1, this is:
+
+straight-line / approximate geographic distance.
+
+Never call it:
+
+- driving distance;
+- road distance;
+- delivery time.
+
+Test radius boundaries.
+
+==================================================
+STOCK
+==================================================
+
+Use P1 semantics.
+
+Availability must respect:
+
+quantity
++
+stock_confirmed_at
+
+Zero quantity cannot appear as available.
+
+Do NOT use updated_at as stock freshness.
+
+==================================================
+FRESHNESS
+==================================================
+
+Create a documented configurable policy such as:
+
+FRESH
+STALE
+UNKNOWN
+
+Document the chosen threshold and rationale.
+
+Do not call stale inventory "live stock."
+
+==================================================
+RANKING
+==================================================
+
+Use deterministic, explainable ranking.
+
+Prefer explicit priorities such as:
+
+1. valid available stock;
+2. freshness;
+3. distance;
+4. price/user-selected price sorting;
+5. deterministic tie breaker.
+
+Avoid unexplained weighted scores.
+
+If weights are introduced, justify every one.
+
+==================================================
+P2C — EVALUATION DATASET
+==================================================
+
+Create a VERSIONED evaluation dataset.
+
+It must contain meaningful categories including:
+
+- exact brand;
+- exact generic;
+- case variation;
+- spacing/punctuation variation;
+- approved aliases;
+- mild typos;
+- stronger typos;
+- strength-specific queries;
+- dosage-form-specific queries;
+- ambiguous brand queries;
+- ambiguous generic queries;
+- unsupported medicine names;
+- medicine-like nonsense;
+- hard negatives;
+- similar-name negatives.
+
+If Urdu/Roman Urdu is actually supported, evaluate it separately.
+
+==================================================
+QUERY PROVENANCE
+==================================================
+
+Every query family must state its origin:
+
+- manually constructed;
+- source-derived;
+- typo-transformed;
+- reviewed alias;
+- synthetic;
+- actual user query.
+
+Do NOT describe manually generated queries as real-world user queries.
+
+If no genuine search-log dataset exists, explicitly state:
+
+REAL USER QUERY DISTRIBUTION = NOT_PROVEN.
+
+==================================================
+CRITICAL ANTI-FALSE-CONFIDENCE RULE
+==================================================
+
+Do not build an evaluation set that simply mirrors the implementation.
+
+For example:
+
+If the typo generator used by the evaluator creates the exact same transformations that the search logic was designed around, performance may be misleading.
+
+Actively include difficult independent cases.
+
+Audit for:
+
+- trivial queries;
+- duplicated query families;
+- leakage;
+- overly similar train/test variants;
+- overly high proportion of exact matches;
+- unrealistic negatives;
+- tiny subgroup sizes.
+
+Report these risks.
+
+==================================================
+DATA SPLIT
+==================================================
+
+Separate:
+
+DEVELOPMENT/TUNING
+
+from
+
+FINAL HELD-OUT.
+
+Keep closely related variants/query families together where required to avoid leakage.
+
+Freeze the final held-out set before acceptance evaluation.
+
+Record a hash/checksum of the frozen set if practical.
+
+==================================================
+THRESHOLD SELECTION
+==================================================
+
+Select fuzzy thresholds ONLY using development/tuning data.
+
+Record:
+
+- thresholds tried;
+- development results;
+- false-positive tradeoffs;
+- selected threshold;
+- selected ambiguity margin/rules;
+- rationale.
+
+Do not use final held-out results to tune these values.
+
+==================================================
+PREDECLARE METRICS
+==================================================
+
+Before final evaluation define exactly how you will compute relevant metrics such as:
+
+- top-1 accuracy for uniquely resolvable queries;
+- candidate recall@k;
+- precision;
+- recall;
+- F1;
+- false-positive rate;
+- no-match accuracy;
+- ambiguity-detection accuracy.
+
+Define evaluation units.
+
+==================================================
+PREDECLARE PASS CRITERIA
+==================================================
+
+Before seeing final held-out results specify:
+
+METRIC
+REQUIRED THRESHOLD
+RATIONALE
+
+False-positive medicine resolution deserves particular attention.
+
+Do not lower thresholds after final evaluation to obtain a pass.
+
+==================================================
+BASELINE COMPARISON
+==================================================
+
+Where feasible compare incremental systems:
+
+A. exact-only
+
+B. exact + aliases
+
+C. exact + aliases + fuzzy
+
+Show both:
+
+benefits
+AND
+costs.
+
+For example, fuzzy matching may increase retrieval while also introducing false positives.
+
+==================================================
+FINAL HELD-OUT EVALUATION
+==================================================
+
+Run the frozen held-out acceptance evaluation only after:
+
+- implementation is finalized;
+- thresholds are frozen;
+- metrics are predefined;
+- acceptance thresholds are predefined.
+
+Report exact numbers.
+
+Break results down by:
+
+- exact;
+- generic;
+- alias;
+- typo;
+- strength/form;
+- ambiguity;
+- unsupported;
+- hard-negative;
+- multilingual, if applicable.
+
+Do not hide poor categories behind an overall score.
+
+==================================================
+ERROR ANALYSIS
+==================================================
+
+Inspect failures individually.
+
+Classify them as appropriate:
+
+- catalog issue;
+- bad ground truth;
+- normalization error;
+- alias gap;
+- fuzzy false positive;
+- fuzzy false negative;
+- ambiguity failure;
+- threshold issue;
+- strength/form handling;
+- ranking;
+- dataset leakage;
+- implementation bug.
+
+Include representative examples.
+
+==================================================
+TESTING
+==================================================
+
+Add meaningful tests for:
+
+Normalization:
+- case
+- whitespace
+- punctuation
+- Unicode where relevant
+
+Matching:
+- exact brand
+- exact generic
+- alias
+- typo
+- typo rejection
+- unsupported
+- hard negative
+
+Ambiguity:
+- multiple strengths
+- multiple forms
+- generic-to-many
+- close fuzzy candidates
+
+Location:
+- correct distance
+- inside radius
+- outside radius
+- boundary
+- invalid coordinates
+
+Freshness:
+- fresh
+- stale
+- unknown
+- zero stock
+
+Ranking:
+- deterministic order
+- stable ties
+- freshness ordering
+- distance ordering
+- price sorting if implemented
+
+Integration:
+- actual PostgreSQL-backed search
+
+Regression:
+- all relevant P0/P1 tests
+
+==================================================
+PERFORMANCE
+==================================================
+
+Measure V1 search performance.
+
+Record:
+
+- machine/environment;
+- catalog size;
+- inventory size;
+- number of queries;
+- concurrency if tested;
+- p50;
+- p95;
+- errors.
+
+Do not extrapolate this into production-scale claims.
+
+==================================================
+ALTERNATIVES ANALYSIS
+==================================================
+
+Explicitly consider:
+
+- PostgreSQL text search;
+- RapidFuzz;
+- trigram similarity;
+- Levenshtein-style matching;
+- embeddings;
+- semantic search;
+- language-specific normalization;
+- hybrid retrieval.
+
+For each state:
+
+- potential benefit;
+- disadvantage;
+- complexity;
+- data requirement;
+- V1 suitability;
+- chosen/rejected/deferred;
+- reason.
+
+Do NOT implement all of them.
+
+==================================================
+CLAIM CLASSIFICATION
+==================================================
+
+Every important P2 claim must be classified as one of:
+
+REAL_SOURCE_PROVEN
+INTEGRATION_PROVEN
+HELD_OUT_EVALUATION_PROVEN
+FIXTURE_PROVEN
+SYNTHETIC_DATA_PROVEN
+PARTIAL
+NOT_PROVEN
+NOT_RUN
+BLOCKED
+
+Examples:
+
+"Typo search works"
+→ should require held-out evaluation evidence.
+
+"Nearby pharmacy lookup works"
+→ may be integration-proven against explicitly synthetic pharmacy coordinates.
+
+"MEDIFIND works for Pakistani pharmacy customers"
+→ NOT_PROVEN without real-user evidence.
+
+==================================================
+P2 EXIT GATES
+==================================================
+
+P2 is VERIFIED_COMPLETE only if all applicable gates pass:
+
+1. Actual local P0/P1 lineage documented.
+2. P0 regression passes.
+3. P1 regression passes.
+4. Catalog expansion attempted using defensible sources.
+5. Catalog quality audit completed.
+6. Data provenance preserved.
+7. Exact brand matching works.
+8. Exact generic matching works.
+9. Approved alias matching works.
+10. Conservative fuzzy matching works.
+11. No-match behavior works.
+12. False-positive controls work.
+13. Ambiguity is first-class.
+14. Strengths remain distinct.
+15. Forms remain distinct.
+16. Distance calculation is correct.
+17. Radius filtering works.
+18. stock_confirmed_at is used correctly.
+19. Zero stock is unavailable.
+20. Freshness policy is documented/tested.
+21. Ranking is deterministic.
+22. Evaluation dataset is versioned.
+23. Query provenance is documented.
+24. Tuning vs held-out split is clean.
+25. Leakage audit completed.
+26. Held-out set frozen before acceptance test.
+27. Metrics predefined.
+28. Acceptance thresholds predefined.
+29. Fuzzy thresholds frozen before final held-out run.
+30. Final held-out evaluation completed.
+31. Required acceptance thresholds met.
+32. Category breakdown reported.
+33. False positives reviewed.
+34. False negatives reviewed.
+35. Ambiguity failures reviewed.
+36. Baseline comparison completed.
+37. Error analysis completed.
+38. Performance measured.
+39. Relevant automated tests pass.
+40. No unexplained required skips.
+41. P0/P1 behavior preserved.
+42. Security/privacy implications reviewed.
+43. Alternatives documented.
+44. Technical debt documented.
+45. False-confidence risks documented.
+46. Claim audit completed.
+47. Documentation updated.
+48. Diff reviewed.
+49. No secrets committed.
+50. Working tree clean.
+51. Local P2 milestone commit created.
+
+Do not mark P2 VERIFIED_COMPLETE if required evaluation thresholds fail.
+
+==================================================
+MANDATORY FINAL REPORT
+==================================================
+
+Return ALL of the following.
+
+Do not omit negative sections because there were no obvious failures.
+
+1. P2 VERDICT
+   VERIFIED_COMPLETE / PARTIAL / BLOCKED
+
+2. AUTHORITATIVE GIT LINEAGE
+
+3. EXECUTIVE SUMMARY
+
+4. WHAT WAS IMPLEMENTED
+
+5. WHAT WAS NOT IMPLEMENTED
+
+6. CATALOG EXPANSION
+   original count
+   final count
+   brands
+   generics
+   manufacturers
+   forms
+   source breakdown
+
+7. CATALOG QUALITY AUDIT
+
+8. REJECTED / CONFLICTING DATA
+
+9. SEARCH ARCHITECTURE
+
+10. NORMALIZATION
+
+11. EXACT BRAND SEARCH
+
+12. GENERIC SEARCH
+
+13. ALIASES
+
+14. FUZZY SEARCH
+    algorithm
+    thresholds
+    ambiguity margin
+    rationale
+
+15. AMBIGUITY BEHAVIOR
+
+16. LOCATION
+
+17. STOCK / FRESHNESS
+
+18. RANKING
+
+19. API CHANGES
+
+20. EVALUATION DATASET
+    total size
+    development size
+    held-out size
+    categories
+    provenance
+    frozen hash
+
+21. DATASET LEAKAGE AUDIT
+
+22. PREDECLARED METRICS
+
+23. PREDECLARED PASS THRESHOLDS
+
+24. DEVELOPMENT/TUNING RESULTS
+
+25. BASELINE A RESULTS
+
+26. BASELINE B RESULTS
+
+27. BASELINE C RESULTS
+
+28. FINAL HELD-OUT RESULTS
+
+29. CATEGORY-BY-CATEGORY RESULTS
+
+30. FALSE POSITIVES
+    Include examples.
+
+31. FALSE NEGATIVES
+    Include examples.
+
+32. AMBIGUITY FAILURES
+    Include examples.
+
+33. ERROR ANALYSIS
+
+34. PERFORMANCE
+
+35. TEST RESULTS
+    passed
+    failed
+    skipped
+    warnings
+
+36. REAL POSTGRESQL TEST COVERAGE
+
+37. P0/P1 REGRESSION STATUS
+
+38. SECURITY / PRIVACY REVIEW
+
+39. WHAT WENT WELL
+
+40. WHAT WENT BADLY
+
+41. WHAT PASSES BUT IS FRAGILE
+
+42. UNVERIFIED ITEMS
+
+43. BLOCKED ITEMS
+
+44. ASSUMPTIONS
+
+45. ALTERNATIVES CONSIDERED
+
+46. TECHNICAL DEBT
+
+47. DATA LIMITATIONS
+
+48. EVALUATION LIMITATIONS
+
+49. FALSE-CONFIDENCE RISKS
+
+50. CLAIM AUDIT
+    Claim
+    Evidence classification
+    Evidence
+
+51. FILES CREATED/MODIFIED
+
+52. DATABASE/MIGRATION CHANGES
+
+53. LOCAL COMMIT HASH
+
+54. GIT STATUS
+
+55. ALL 51 P2 EXIT GATES
+    Gate
+    PASS/FAIL/BLOCKED
+    Evidence
+
+56. EXTERNAL REVIEWER CHALLENGE
+
+Act as a hostile but technically fair FYP evaluator.
+
+State the strongest criticisms that could be made about P2.
+
+57. P3 READINESS
+    READY / NOT_READY
+
+58. EXACT NEXT ACTION
+
+If P2 is VERIFIED_COMPLETE:
+state that P3 can begin but DO NOT begin it.
+
+If P2 is PARTIAL/BLOCKED:
+state exactly what must be corrected before P3.
+
+==================================================
+STOP CONDITION
+==================================================
+
+Do NOT begin P3.
+
+Do NOT add AI/ML or LangGraph.
+
+Stop after the P2 report.
